@@ -110,3 +110,18 @@ video {
     padding: 12px;
     margin-left: 10px;
 }
+
+#ask-ai-btn{
+    background-color: #ffffff;
+    color: #0000ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ask-ai-btn i{
+    color: #0000ff;
+    padding: 10px;
+    font-size: 24px;
+    padding-right: 5px;
+}   
