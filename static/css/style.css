@@ -88,3 +88,25 @@ video {
     border-radius: 0px 0px 12px 12px;
     padding: 10px;
 }
+
+.ask-ai-container.simple {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    background-color: #0000ff;
+}
+
+.ask-ai-container.simple i {
+    margin-right: 8px;
+    color: #ffffff;
+}
+
+.ask-ai-container.simple input[type="text"] {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 12px;
+    margin-left: 10px;
+}
