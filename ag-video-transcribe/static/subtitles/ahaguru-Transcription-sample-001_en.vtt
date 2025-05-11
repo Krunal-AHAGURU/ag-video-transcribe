@@ -1,0 +1,3549 @@
+WEBVTT
+
+0
+00:00:08.529 --> 00:00:11.600
+So far we have been focusing on questions where
+
+1
+00:00:12.069 --> 00:00:16.139
+all the forces are either horizontal or they are vertical upward downward,
+
+2
+00:00:16.190 --> 00:00:16.639
+right?
+
+3
+00:00:17.110 --> 00:00:20.500
+But many times what happens is that forces obviously are at an angle,
+
+4
+00:00:20.709 --> 00:00:22.350
+so we need to know what to do in such a case.
+
+5
+00:00:22.430 --> 00:00:22.979
+So for example,
+
+6
+00:00:23.110 --> 00:00:24.190
+if I had a block.
+
+7
+00:00:25.469 --> 00:00:27.870
+And it has a force that is acting this way.
+
+8
+00:00:28.840 --> 00:00:30.719
+Now how do I deal with such a force?
+
+9
+00:00:31.170 --> 00:00:31.329
+OK,
+
+10
+00:00:31.409 --> 00:00:33.729
+so the standard approach is to convert
+
+11
+00:00:33.729 --> 00:00:36.009
+everything to a combination of horizontal and
+
+12
+00:00:36.139 --> 00:00:37.540
+vertical forces.
+
+13
+00:00:37.650 --> 00:00:41.759
+So we'll say that this force is actually so much horizontal
+
+14
+00:00:42.009 --> 00:00:43.979
+and so much vertical.
+
+15
+00:00:44.169 --> 00:00:46.770
+You can always break up a force that is like
+
+16
+00:00:46.770 --> 00:00:50.569
+this into a horizontal component and a vertical component.
+
+17
+00:00:51.240 --> 00:00:53.330
+This thing we call ICAP.
+
+18
+00:00:53.400 --> 00:00:54.520
+So this direction,
+
+19
+00:00:54.759 --> 00:00:54.959
+you know,
+
+20
+00:00:55.020 --> 00:00:56.869
+we call it ICAP direction.
+
+21
+00:00:57.119 --> 00:00:58.580
+This direction we call it
+
+22
+00:00:59.040 --> 00:01:00.020
+JAP direction.
+
+23
+00:01:00.080 --> 00:01:01.069
+So what does that mean?
+
+24
+00:01:01.360 --> 00:01:03.349
+That means if I have
+
+25
+00:01:03.720 --> 00:01:04.800
+3 units like this,
+
+26
+00:01:04.809 --> 00:01:06.209
+ICAP is 1 unit.
+
+27
+00:01:06.480 --> 00:01:08.309
+So if I have 3 units like this,
+
+28
+00:01:08.360 --> 00:01:11.389
+it is ICAP plus ICAP plus ICAP,
+
+29
+00:01:11.599 --> 00:01:12.709
+we will write it as
+
+30
+00:01:13.040 --> 00:01:14.589
+3ICAP.
+
+31
+00:01:15.319 --> 00:01:15.919
+What does that mean?
+
+32
+00:01:16.000 --> 00:01:17.750
+The length is 3.
+
+33
+00:01:18.239 --> 00:01:18.400
+OK,
+
+34
+00:01:18.480 --> 00:01:20.239
+ICAP has length 1.
+
+35
+00:01:20.919 --> 00:01:21.309
+Now,
+
+36
+00:01:21.440 --> 00:01:23.120
+if in this direction.
+
+37
+00:01:24.069 --> 00:01:26.970
+I have a force which is 4 units long.
+
+38
+00:01:27.180 --> 00:01:28.819
+I won't say 4 IAP.
+
+39
+00:01:28.860 --> 00:01:31.029
+I'll say 4 JAP.
+
+40
+00:01:32.610 --> 00:01:35.080
+And then this force,
+
+41
+00:01:35.379 --> 00:01:36.849
+which is actually this force,
+
+42
+00:01:36.980 --> 00:01:37.900
+plus that force.
+
+43
+00:01:37.940 --> 00:01:40.250
+Now this plus is not the usual plus.
+
+44
+00:01:40.260 --> 00:01:41.690
+It is not 3 + 4.
+
+45
+00:01:41.940 --> 00:01:44.699
+It is 3 like this plus 4 like this.
+
+46
+00:01:44.790 --> 00:01:45.839
+So for example,
+
+47
+00:01:46.180 --> 00:01:49.370
+if I go 3 units horizontally
+
+48
+00:01:49.620 --> 00:01:51.610
+and I go 4 units vertically,
+
+49
+00:01:51.860 --> 00:01:53.540
+have I gone 7 units?
+
+50
+00:01:54.349 --> 00:01:54.529
+No,
+
+51
+00:01:54.610 --> 00:01:55.000
+right?
+
+52
+00:01:55.169 --> 00:01:56.569
+I walked 7 units.
+
+53
+00:01:57.470 --> 00:01:58.059
+But my
+
+54
+00:01:58.370 --> 00:02:01.279
+displacement would actually be this much.
+
+55
+00:02:01.489 --> 00:02:01.629
+Now,
+
+56
+00:02:01.650 --> 00:02:02.489
+how much is this?
+
+57
+00:02:02.580 --> 00:02:04.319
+Pythagoras theorem tells us
+
+58
+00:02:04.569 --> 00:02:07.480
+that A2 + B2 is C2.
+
+59
+00:02:07.769 --> 00:02:09.639
+So this is root of
+
+60
+00:02:10.110 --> 00:02:11.179
+32
+
+61
+00:02:12.009 --> 00:02:13.169
++ 42.
+
+62
+00:02:14.240 --> 00:02:16.380
+Now that is 9 + 1625,
+
+63
+00:02:16.639 --> 00:02:18.410
+so root of 25 is 5.
+
+64
+00:02:18.759 --> 00:02:20.600
+But this is not length 5.
+
+65
+00:02:20.880 --> 00:02:21.679
+This is a vector.
+
+66
+00:02:21.690 --> 00:02:22.910
+It is in a direction.
+
+67
+00:02:23.199 --> 00:02:25.240
+So this is not the best way to write it.
+
+68
+00:02:25.559 --> 00:02:29.440
+What I will do is I will say that this vector F.
+
+69
+00:02:31.289 --> 00:02:33.000
+Usually we'll put an arrow on top.
+
+70
+00:02:33.210 --> 00:02:34.899
+It's just simply 3IA
+
+71
+00:02:36.380 --> 00:02:39.199
+plus 4 JAP Newtons.
+
+72
+00:02:39.330 --> 00:02:40.770
+If this was in Newtons,
+
+73
+00:02:40.970 --> 00:02:43.970
+it is 3IAP plus 4 JP Newtons.
+
+74
+00:02:44.300 --> 00:02:45.279
+This is the answer,
+
+75
+00:02:45.490 --> 00:02:46.399
+not this.
+
+76
+00:02:46.610 --> 00:02:47.490
+That's not the answer.
+
+77
+00:02:48.429 --> 00:02:50.229
+But magnitude of F,
+
+78
+00:02:50.250 --> 00:02:52.809
+you don't want to know what is the value of F,
+
+79
+00:02:52.850 --> 00:02:55.169
+but you want to know the magnitude of F.
+
+80
+00:02:57.070 --> 00:02:58.470
+Which means we only want the length.
+
+81
+00:02:59.479 --> 00:03:01.960
+Then we can say that is equal to root of
+
+82
+00:03:02.169 --> 00:03:04.270
+32 + 42,
+
+83
+00:03:04.520 --> 00:03:05.399
+which is fine.
+
+84
+00:03:06.360 --> 00:03:11.979
+But the force is not this force is 3IA plus 4 JAP.
+
+85
+00:03:12.270 --> 00:03:14.820
+Suppose I had a force which was
+
+86
+00:03:15.149 --> 00:03:16.229
+like this,
+
+87
+00:03:16.710 --> 00:03:17.699
+this force,
+
+88
+00:03:17.990 --> 00:03:19.800
+which I've broken it up like that.
+
+89
+00:03:19.990 --> 00:03:22.429
+So suppose this was 6 IA
+
+90
+00:03:23.270 --> 00:03:24.220
+and this was,
+
+91
+00:03:24.470 --> 00:03:24.699
+well,
+
+92
+00:03:24.750 --> 00:03:26.149
+now let us think if it was upward,
+
+93
+00:03:26.190 --> 00:03:27.479
+I would be calling it JAP.
+
+94
+00:03:27.750 --> 00:03:28.470
+Now it is downwards,
+
+95
+00:03:28.550 --> 00:03:30.339
+so I'll be calling it minus JAP,
+
+96
+00:03:30.669 --> 00:03:32.539
+but usually we put the minus in front,
+
+97
+00:03:32.710 --> 00:03:35.630
+so let us say -5.
+
+98
+00:03:36.490 --> 00:03:37.160
+Jacob
+
+99
+00:03:38.309 --> 00:03:39.179
+What is this
+
+100
+00:03:39.350 --> 00:03:40.020
+force?
+
+101
+00:03:40.639 --> 00:03:42.270
+It is just simply 6 IA
+
+102
+00:03:43.190 --> 00:03:44.470
+minus 5G cap.
+
+103
+00:03:44.550 --> 00:03:45.190
+That's it over.
+
+104
+00:03:46.169 --> 00:03:46.639
+Now,
+
+105
+00:03:47.080 --> 00:03:47.960
+suppose I ask you,
+
+106
+00:03:48.190 --> 00:03:50.399
+let us add this force
+
+107
+00:03:50.809 --> 00:03:52.080
+plus this force.
+
+108
+00:03:52.169 --> 00:03:52.960
+Is that easy?
+
+109
+00:03:53.449 --> 00:03:54.369
+Suppose this was
+
+110
+00:03:54.690 --> 00:03:55.410
+2 units,
+
+111
+00:03:55.529 --> 00:03:56.720
+2 Newtons,
+
+112
+00:03:56.970 --> 00:03:58.610
+and this was 3 Newtons,
+
+113
+00:03:58.940 --> 00:04:00.080
+what is the total force?
+
+114
+00:04:01.779 --> 00:04:02.360
+5 Newtons.
+
+115
+00:04:02.429 --> 00:04:03.169
+This is easy.
+
+116
+00:04:03.470 --> 00:04:04.419
+Suppose I had
+
+117
+00:04:05.070 --> 00:04:06.259
+2 Newtons
+
+118
+00:04:06.630 --> 00:04:08.820
+and I had to add like this
+
+119
+00:04:09.309 --> 00:04:10.509
+6 Newtons.
+
+120
+00:04:11.960 --> 00:04:13.630
+What is the total force?
+
+121
+00:04:13.639 --> 00:04:15.910
+2 minus 6,
+
+122
+00:04:16.238 --> 00:04:17.048
+so -4.
+
+123
+00:04:17.119 --> 00:04:18.108
+So here we will say
+
+124
+00:04:18.320 --> 00:04:20.000
+it is -4 Newtons.
+
+125
+00:04:20.119 --> 00:04:20.510
+Why?
+
+126
+00:04:20.880 --> 00:04:21.529
+Because you see,
+
+127
+00:04:22.000 --> 00:04:24.029
+2 this way and 6 that way,
+
+128
+00:04:24.239 --> 00:04:27.730
+this is going to be my resultant force minus 4
+
+129
+00:04:27.730 --> 00:04:31.279
+Newtons if I assume this to be the positive direction.
+
+130
+00:04:32.100 --> 00:04:32.290
+OK,
+
+131
+00:04:32.329 --> 00:04:34.640
+but it is 4 Newtons in this direction.
+
+132
+00:04:34.850 --> 00:04:35.769
+Now these are all easy.
+
+133
+00:04:36.579 --> 00:04:39.209
+We have already seen what to do if it is perpendicular.
+
+134
+00:04:39.529 --> 00:04:40.399
+Suppose I ask you,
+
+135
+00:04:40.489 --> 00:04:42.160
+what about this force
+
+136
+00:04:42.970 --> 00:04:43.649
+plus
+
+137
+00:04:44.100 --> 00:04:45.209
+some force like this,
+
+138
+00:04:45.250 --> 00:04:46.119
+this force,
+
+139
+00:04:46.369 --> 00:04:47.609
+it's not even perpendicular.
+
+140
+00:04:48.480 --> 00:04:49.359
+That is the
+
+141
+00:04:49.859 --> 00:04:51.529
+resultant force is this,
+
+142
+00:04:52.059 --> 00:04:54.100
+but how do I add this force and that force?
+
+143
+00:04:54.429 --> 00:04:54.989
+Tough,
+
+144
+00:04:55.450 --> 00:04:55.859
+right?
+
+145
+00:04:56.250 --> 00:04:56.700
+But
+
+146
+00:04:56.940 --> 00:05:00.100
+if somebody gave me this force in this form.
+
+147
+00:05:00.700 --> 00:05:06.399
+Suppose they say this is 7 Newtons making an angle of something 40 degrees.
+
+148
+00:05:07.119 --> 00:05:07.670
+With this
+
+149
+00:05:08.670 --> 00:05:09.459
+Very difficult.
+
+150
+00:05:10.220 --> 00:05:12.299
+But instead of doing this,
+
+151
+00:05:12.790 --> 00:05:14.029
+suppose they had given it like this,
+
+152
+00:05:14.049 --> 00:05:14.820
+they had said,
+
+153
+00:05:15.190 --> 00:05:16.839
+I have here a force,
+
+154
+00:05:17.350 --> 00:05:18.140
+which is,
+
+155
+00:05:18.429 --> 00:05:19.299
+let us say,
+
+156
+00:05:19.350 --> 00:05:20.829
+4 IAP.
+
+157
+00:05:21.980 --> 00:05:23.140
+Plus 3JA.
+
+158
+00:05:24.279 --> 00:05:26.820
+Another force like this,
+
+159
+00:05:27.220 --> 00:05:28.049
+let us say
+
+160
+00:05:28.779 --> 00:05:29.940
+2 IA
+
+161
+00:05:30.700 --> 00:05:31.600
+minus
+
+162
+00:05:31.890 --> 00:05:32.700
+1 JA.
+
+163
+00:05:33.380 --> 00:05:33.579
+OK,
+
+164
+00:05:33.660 --> 00:05:35.850
+so this is a little longer and that's a little shorter.
+
+165
+00:05:36.250 --> 00:05:36.609
+Now,
+
+166
+00:05:36.820 --> 00:05:38.130
+what is this force?
+
+167
+00:05:39.940 --> 00:05:41.929
+Just add these two straight away.
+
+168
+00:05:42.100 --> 00:05:43.450
+4 IA plus 2 eyes.
+
+169
+00:05:43.700 --> 00:05:44.450
+How much is that?
+
+170
+00:05:44.899 --> 00:05:46.000
+6 eye cap,
+
+171
+00:05:46.179 --> 00:05:48.130
+3JA minus JAP.
+
+172
+00:05:48.500 --> 00:05:49.260
+How much is that?
+
+173
+00:05:49.489 --> 00:05:50.089
+plus
+
+174
+00:05:50.540 --> 00:05:51.049
+2 J.
+
+175
+00:05:51.339 --> 00:05:51.790
+That's it.
+
+176
+00:05:51.899 --> 00:05:52.079
+Over.
+
+177
+00:05:52.980 --> 00:05:55.089
+Now suppose you want the length of this,
+
+178
+00:05:55.140 --> 00:05:56.450
+you want the length,
+
+179
+00:05:56.779 --> 00:05:57.690
+not the force.
+
+180
+00:05:57.859 --> 00:05:59.529
+So the force is this,
+
+181
+00:05:59.940 --> 00:06:02.130
+but what is the length of this force?
+
+182
+00:06:05.859 --> 00:06:08.619
+We will write that just as F without the arrow.
+
+183
+00:06:08.839 --> 00:06:09.959
+What is the length of this force?
+
+184
+00:06:10.079 --> 00:06:10.679
+Very simple,
+
+185
+00:06:10.690 --> 00:06:13.750
+root of the square plus that square root of
+
+186
+00:06:14.200 --> 00:06:15.119
+6 square.
+
+187
+00:06:16.149 --> 00:06:16.910
+Plus 2 square.
+
+188
+00:06:17.320 --> 00:06:18.109
+We can calculate it,
+
+189
+00:06:18.119 --> 00:06:19.350
+but that's the basic idea.
+
+190
+00:06:19.559 --> 00:06:20.630
+Why is that the case?
+
+191
+00:06:20.880 --> 00:06:23.290
+Because 6 IA plus 2J means
+
+192
+00:06:23.679 --> 00:06:25.679
+this is 6IA,
+
+193
+00:06:26.799 --> 00:06:27.750
+and that is
+
+194
+00:06:28.160 --> 00:06:28.799
+2J.
+
+195
+00:06:29.440 --> 00:06:31.070
+What is this length 6?
+
+196
+00:06:31.239 --> 00:06:32.790
+What is that length 2.
+
+197
+00:06:32.920 --> 00:06:37.160
+So what is this length Pythagoras' theorem says root of +62 + 2 square,
+
+198
+00:06:37.239 --> 00:06:38.070
+and that's what I've written.
+
+199
+00:06:38.480 --> 00:06:38.950
+OK.
+
+200
+00:06:39.279 --> 00:06:39.589
+So,
+
+201
+00:06:39.839 --> 00:06:42.750
+once you write the force in the form of I and J,
+
+202
+00:06:42.880 --> 00:06:45.200
+the question becomes extremely easy.
+
+203
+00:06:45.630 --> 00:06:46.179
+In it,
+
+204
+00:06:46.440 --> 00:06:48.630
+usually you get one or two questions where
+
+205
+00:06:48.959 --> 00:06:51.399
+the question itself is given in ING form,
+
+206
+00:06:51.799 --> 00:06:54.630
+but then sometimes the question is not given in ING form.
+
+207
+00:06:54.760 --> 00:06:57.220
+So that means you need to convert it into ING form.
+
+208
+00:06:57.359 --> 00:06:57.730
+So first,
+
+209
+00:06:57.760 --> 00:07:01.480
+let us start looking at what to do if the question is given in ING form.
+
+210
+00:07:03.200 --> 00:07:05.779
+So now let us look at questions where
+
+211
+00:07:06.149 --> 00:07:08.950
+we are looking at all objects only in space.
+
+212
+00:07:08.989 --> 00:07:09.309
+After that,
+
+213
+00:07:09.320 --> 00:07:11.290
+we will worry about objects on the ground.
+
+214
+00:07:11.750 --> 00:07:11.829
+Now,
+
+215
+00:07:11.869 --> 00:07:13.309
+what happens when you have objects in space,
+
+216
+00:07:13.350 --> 00:07:15.000
+you don't have to worry about gravitational force.
+
+217
+00:07:15.070 --> 00:07:16.420
+So they're all hanging in space
+
+218
+00:07:17.029 --> 00:07:18.269
+just for easy calculation.
+
+219
+00:07:18.959 --> 00:07:19.350
+Now
+
+220
+00:07:19.519 --> 00:07:23.230
+if I have this 5 kg block in space with 3 forces acting on it,
+
+221
+00:07:23.440 --> 00:07:24.760
+what is its acceleration?
+
+222
+00:07:24.920 --> 00:07:25.000
+Now,
+
+223
+00:07:25.040 --> 00:07:27.589
+in all cases I'm really asking you to find acceleration,
+
+224
+00:07:27.600 --> 00:07:27.920
+right?
+
+225
+00:07:28.160 --> 00:07:29.350
+So let us think about it.
+
+226
+00:07:29.679 --> 00:07:31.489
+6 + 8,
+
+227
+00:07:31.600 --> 00:07:32.119
+how much is that?
+
+228
+00:07:32.160 --> 00:07:34.040
+14 minus 4,
+
+229
+00:07:34.119 --> 00:07:35.070
+so that is 10.
+
+230
+00:07:35.279 --> 00:07:36.429
+So acceleration
+
+231
+00:07:36.640 --> 00:07:42.549
+is 10 divided by 52 metres per second squared in that direction.
+
+232
+00:07:43.670 --> 00:07:44.100
+Correct.
+
+233
+00:07:44.269 --> 00:07:44.309
+Now,
+
+234
+00:07:44.390 --> 00:07:45.369
+this we have done earlier,
+
+235
+00:07:45.549 --> 00:07:46.940
+so really this is quite easy.
+
+236
+00:07:47.149 --> 00:07:52.119
+I will write this now as acceleration is 2 IAP
+
+237
+00:07:52.730 --> 00:07:54.100
+metres per second square.
+
+238
+00:07:55.079 --> 00:07:56.489
+If I write it this way,
+
+239
+00:07:56.820 --> 00:07:58.750
+I don't have to say that way.
+
+240
+00:07:58.940 --> 00:07:59.690
+Do you understand?
+
+241
+00:08:00.019 --> 00:08:01.679
+Because this is already ICAP.
+
+242
+00:08:01.899 --> 00:08:03.829
+So that is the reason we introduced this question.
+
+243
+00:08:03.899 --> 00:08:04.209
+Now,
+
+244
+00:08:04.380 --> 00:08:05.859
+let us think about the other questions.
+
+245
+00:08:06.019 --> 00:08:07.380
+So suppose I take this question.
+
+246
+00:08:08.209 --> 00:08:09.049
+But in this question,
+
+247
+00:08:09.070 --> 00:08:10.269
+there is one force like this,
+
+248
+00:08:10.380 --> 00:08:11.029
+one like this,
+
+249
+00:08:11.059 --> 00:08:12.070
+and one like that.
+
+250
+00:08:12.309 --> 00:08:13.779
+I want the acceleration,
+
+251
+00:08:13.869 --> 00:08:15.100
+but acceleration
+
+252
+00:08:15.269 --> 00:08:16.200
+is a vector
+
+253
+00:08:16.429 --> 00:08:18.390
+and it is net force by.
+
+254
+00:08:19.279 --> 00:08:20.209
+Mass
+
+255
+00:08:22.709 --> 00:08:23.040
+Right.
+
+256
+00:08:23.230 --> 00:08:24.779
+What is net force here?
+
+257
+00:08:25.290 --> 00:08:25.980
+Let us see.
+
+258
+00:08:26.230 --> 00:08:27.579
+This is 4IAP
+
+259
+00:08:28.350 --> 00:08:29.350
+plus 6 JAP.
+
+260
+00:08:29.399 --> 00:08:30.420
+What about this one?
+
+261
+00:08:30.910 --> 00:08:31.500
+7?
+
+262
+00:08:32.239 --> 00:08:32.587
+I,
+
+263
+00:08:32.749 --> 00:08:33.379
+it's not given,
+
+264
+00:08:33.429 --> 00:08:35.479
+but you know it is horizontal and it is that way,
+
+265
+00:08:35.629 --> 00:08:36.549
+so it is 7IA.
+
+266
+00:08:37.148 --> 00:08:41.258
+What about this one minus 2 IA plus 4 JAP.
+
+267
+00:08:41.388 --> 00:08:41.908
+How do you find,
+
+268
+00:08:41.999 --> 00:08:42.957
+how do you add all this up?
+
+269
+00:08:43.068 --> 00:08:44.539
+Add all eye caps together.
+
+270
+00:08:46.588 --> 00:08:47.708
+2 IA plus 4IAP,
+
+271
+00:08:47.908 --> 00:08:50.109
+which is 2IA plus 7IAP,
+
+272
+00:08:50.148 --> 00:08:52.388
+which is 9 IAP.
+
+273
+00:08:53.739 --> 00:08:54.539
+4 JA
+
+274
+00:08:55.340 --> 00:08:56.270
+plus 6 J.
+
+275
+00:08:57.159 --> 00:08:58.270
+10 JAP.
+
+276
+00:08:59.409 --> 00:09:00.820
+Divided by 2.
+
+277
+00:09:01.599 --> 00:09:05.950
+Which means the acceleration is 4.5
+
+278
+00:09:06.239 --> 00:09:07.000
+ICAP
+
+279
+00:09:07.559 --> 00:09:09.530
+plus 5 JP
+
+280
+00:09:10.440 --> 00:09:11.869
+metres per
+
+281
+00:09:12.479 --> 00:09:13.250
+second square.
+
+282
+00:09:14.039 --> 00:09:14.159
+Now,
+
+283
+00:09:14.169 --> 00:09:18.840
+4.5 ICAP plus 5 JAP will look like this direction.
+
+284
+00:09:19.789 --> 00:09:22.590
+So this is the acceleration direction.
+
+285
+00:09:22.760 --> 00:09:22.900
+Now,
+
+286
+00:09:22.919 --> 00:09:25.559
+is this the magnitude of acceleration or is
+
+287
+00:09:25.559 --> 00:09:28.229
+this the direction plus magnitude of acceleration?
+
+288
+00:09:28.719 --> 00:09:28.929
+Both,
+
+289
+00:09:29.000 --> 00:09:29.349
+right?
+
+290
+00:09:29.559 --> 00:09:31.049
+This includes direction.
+
+291
+00:09:31.280 --> 00:09:33.119
+It also has everything in it.
+
+292
+00:09:33.320 --> 00:09:35.270
+So this is the full acceleration.
+
+293
+00:09:35.479 --> 00:09:36.900
+Suppose somebody asks us,
+
+294
+00:09:37.039 --> 00:09:38.039
+I don't want A,
+
+295
+00:09:38.090 --> 00:09:40.669
+but I want magnitude of A,
+
+296
+00:09:41.080 --> 00:09:44.479
+then you say root of 4.5 square.
+
+297
+00:09:45.640 --> 00:09:46.919
+Plus 5 2.
+
+298
+00:09:47.479 --> 00:09:51.119
+Every time you don't need to draw the right angle triangle,
+
+299
+00:09:51.159 --> 00:09:53.989
+you can directly say that if it is XI plus Y J,
+
+300
+00:09:54.159 --> 00:09:56.210
+it is X2 + Y2 root of that,
+
+301
+00:09:56.440 --> 00:09:57.599
+that will be the magnitude.
+
+302
+00:09:57.679 --> 00:09:58.549
+So is that clear?
+
+303
+00:09:58.960 --> 00:10:01.349
+So if I'm given a force like this,
+
+304
+00:10:01.599 --> 00:10:05.070
+it's very easy to add these forces and come up with one single force.
+
+305
+00:10:05.320 --> 00:10:05.679
+Therefore,
+
+306
+00:10:05.719 --> 00:10:07.039
+you can find the acceleration.
+
+307
+00:10:07.200 --> 00:10:08.030
+Is that clear?
+
+308
+00:10:08.359 --> 00:10:08.460
+Now,
+
+309
+00:10:08.520 --> 00:10:11.710
+that is because I've given the format I and J.
+
+310
+00:10:12.070 --> 00:10:13.140
+That's very important.
+
+311
+00:10:13.460 --> 00:10:14.859
+If you don't get that format,
+
+312
+00:10:14.940 --> 00:10:16.520
+convert it into that format.
+
+313
+00:10:16.780 --> 00:10:17.179
+OK.
+
+314
+00:10:17.650 --> 00:10:19.099
+Sometimes what happens is this is an easier one.
+
+315
+00:10:19.179 --> 00:10:20.010
+People look at this and say,
+
+316
+00:10:20.020 --> 00:10:20.890
+I don't know what to do,
+
+317
+00:10:21.140 --> 00:10:22.219
+but I hope that is very clear.
+
+318
+00:10:22.260 --> 00:10:23.580
+You know what to do with this.
+
+319
+00:10:23.859 --> 00:10:25.859
+Now let us take a slightly more complex question,
+
+320
+00:10:25.900 --> 00:10:26.179
+OK?
+
+321
+00:10:26.340 --> 00:10:27.659
+So I'm going to look at this question.
+
+322
+00:10:28.619 --> 00:10:30.020
+So if I look at this question,
+
+323
+00:10:31.179 --> 00:10:31.729
+Then,
+
+324
+00:10:31.979 --> 00:10:32.619
+in this question,
+
+325
+00:10:32.659 --> 00:10:34.010
+I have a 4 F.
+
+326
+00:10:34.919 --> 00:10:35.909
+How much I don't know.
+
+327
+00:10:36.119 --> 00:10:37.330
+But I have another 4
+
+328
+00:10:37.679 --> 00:10:38.669
+horizontal direction.
+
+329
+00:10:38.719 --> 00:10:39.669
+What should I write this?
+
+330
+00:10:39.880 --> 00:10:41.239
+10 IA.
+
+331
+00:10:43.109 --> 00:10:45.179
+This is already given as -5 ICAP,
+
+332
+00:10:45.210 --> 00:10:47.450
+55 J.
+
+333
+00:10:47.460 --> 00:10:48.250
+5 IAP,
+
+334
+00:10:48.299 --> 00:10:49.320
+-5JAP,
+
+335
+00:10:49.409 --> 00:10:50.679
+that's why it's pointing in the
+
+336
+00:10:51.010 --> 00:10:52.599
+downward direction like that.
+
+337
+00:10:52.890 --> 00:10:53.000
+Now,
+
+338
+00:10:53.010 --> 00:10:55.729
+if I look at the acceleration of this 3 kg block,
+
+339
+00:10:55.809 --> 00:10:56.570
+that is given.
+
+340
+00:10:58.390 --> 00:11:00.260
+Do you remember Newton's second law?
+
+341
+00:11:00.340 --> 00:11:00.780
+What is it?
+
+342
+00:11:01.710 --> 00:11:04.049
+Net forces mass into acceleration.
+
+343
+00:11:04.229 --> 00:11:05.669
+Now this force is some angle.
+
+344
+00:11:05.679 --> 00:11:06.630
+I don't know what angle.
+
+345
+00:11:06.830 --> 00:11:08.659
+Let us write this as F vector.
+
+346
+00:11:09.109 --> 00:11:12.539
+Net force is this force plus this force plus this force.
+
+347
+00:11:12.669 --> 00:11:13.729
+So if I write it here,
+
+348
+00:11:13.950 --> 00:11:14.719
+I will write.
+
+349
+00:11:15.710 --> 00:11:16.280
+F
+
+350
+00:11:17.830 --> 00:11:19.650
+Plus 10 I cap.
+
+351
+00:11:21.380 --> 00:11:23.729
+-5 IA 5
+
+352
+00:11:24.179 --> 00:11:24.450
+J.
+
+353
+00:11:25.500 --> 00:11:26.489
+This is the total rate.
+
+354
+00:11:27.169 --> 00:11:31.239
+This must be equal to mass in acceleration,
+
+355
+00:11:31.489 --> 00:11:32.750
+so 3 times
+
+356
+00:11:33.400 --> 00:11:34.010
+2 IA
+
+357
+00:11:35.010 --> 00:11:36.049
+plus 3 JA.
+
+358
+00:11:36.969 --> 00:11:40.020
+If you remember earlier I told you first rate MA.
+
+359
+00:11:40.880 --> 00:11:43.640
+But that was because you were not using INJ.
+
+360
+00:11:43.869 --> 00:11:44.510
+With INJ,
+
+361
+00:11:44.549 --> 00:11:45.820
+the direction is already there.
+
+362
+00:11:46.109 --> 00:11:49.059
+So whether you write this first or whether you write that first does not matter,
+
+363
+00:11:49.270 --> 00:11:49.549
+OK?
+
+364
+00:11:49.710 --> 00:11:50.690
+So if you use vectors,
+
+365
+00:11:50.789 --> 00:11:52.809
+it's very straightforward and simple.
+
+366
+00:11:53.270 --> 00:11:53.619
+So
+
+367
+00:11:53.789 --> 00:11:54.090
+if,
+
+368
+00:11:54.190 --> 00:11:56.150
+if I solve this is 6I cap,
+
+369
+00:11:56.229 --> 00:11:57.070
+that is 10IA,
+
+370
+00:11:57.190 --> 00:11:58.789
+this is 10 minus 5.
+
+371
+00:11:59.669 --> 00:12:00.650
+How much is this?
+
+372
+00:12:00.940 --> 00:12:01.630
+5ICAP.
+
+373
+00:12:01.869 --> 00:12:03.229
+So when you bring 5IA here,
+
+374
+00:12:03.239 --> 00:12:04.469
+6 minus 51,
+
+375
+00:12:04.719 --> 00:12:06.760
+so this is going to be 1 ICAP.
+
+376
+00:12:07.229 --> 00:12:08.429
+This is 9JA,
+
+377
+00:12:08.590 --> 00:12:10.080
+that is minus 5J cap.
+
+378
+00:12:10.349 --> 00:12:12.940
+So when it comes here it will become + 59 + 5,
+
+379
+00:12:13.349 --> 00:12:13.960
+14.
+
+380
+00:12:14.799 --> 00:12:16.030
+So that means
+
+381
+00:12:16.799 --> 00:12:17.429
+the
+
+382
+00:12:18.559 --> 00:12:19.989
+unknown force
+
+383
+00:12:20.280 --> 00:12:20.830
+here
+
+384
+00:12:21.280 --> 00:12:24.000
+we found is ICAP plus 14 JAP.
+
+385
+00:12:24.400 --> 00:12:25.830
+It's a very large force.
+
+386
+00:12:26.039 --> 00:12:27.830
+If you want its magnitude,
+
+387
+00:12:28.320 --> 00:12:29.059
+what will it be?
+
+388
+00:12:29.119 --> 00:12:30.150
+root of
+
+389
+00:12:30.719 --> 00:12:35.750
+1 square because it's ICAP means one ICAP plus 14 square.
+
+390
+00:12:36.000 --> 00:12:38.309
+So that will be the magnitude of this force.
+
+391
+00:12:38.559 --> 00:12:38.950
+OK,
+
+392
+00:12:39.039 --> 00:12:40.260
+so I hope you know how to find this.
+
+393
+00:12:40.280 --> 00:12:41.359
+If acceleration is given,
+
+394
+00:12:41.400 --> 00:12:42.679
+you can find the unknown force.
+
+395
+00:12:43.750 --> 00:12:45.229
+Now let us look at this case.
+
+396
+00:12:45.960 --> 00:12:48.070
+Here the actual acceleration was given.
+
+397
+00:12:48.390 --> 00:12:48.640
+Now let us,
+
+398
+00:12:48.799 --> 00:12:50.710
+let me explain what this question is like.
+
+399
+00:12:51.000 --> 00:12:52.760
+So you have a 3 kg block.
+
+400
+00:12:53.700 --> 00:12:56.500
+You have 14 minus 5A plus 3 JA.
+
+401
+00:12:57.890 --> 00:12:59.929
+Another force don't know if.
+
+402
+00:13:00.960 --> 00:13:01.719
+A third force,
+
+403
+00:13:01.799 --> 00:13:03.880
+which is 3IA plus 6 JA
+
+404
+00:13:04.719 --> 00:13:05.479
+Newtons.
+
+405
+00:13:06.890 --> 00:13:07.289
+OK,
+
+406
+00:13:07.409 --> 00:13:08.219
+in that direction.
+
+407
+00:13:09.229 --> 00:13:11.260
+I have been told that this block,
+
+408
+00:13:11.309 --> 00:13:13.969
+this object is moving vertically up.
+
+409
+00:13:14.700 --> 00:13:16.169
+No horizontal motion,
+
+410
+00:13:16.500 --> 00:13:19.210
+no horizontal acceleration means what?
+
+411
+00:13:20.440 --> 00:13:22.789
+Net force in the horizontal direction must be
+
+412
+00:13:23.280 --> 00:13:23.830
+0.
+
+413
+00:13:24.000 --> 00:13:24.390
+OK,
+
+414
+00:13:24.520 --> 00:13:25.960
+so let us think about it.
+
+415
+00:13:26.159 --> 00:13:27.679
+This is only JAP.
+
+416
+00:13:29.219 --> 00:13:29.989
+ICAP
+
+417
+00:13:30.419 --> 00:13:31.770
+is 0 only.
+
+418
+00:13:32.799 --> 00:13:33.349
+GCAP
+
+419
+00:13:34.270 --> 00:13:34.760
+OK,
+
+420
+00:13:35.200 --> 00:13:35.760
+so for example,
+
+421
+00:13:35.840 --> 00:13:38.000
+this was one of the questions that came up in NEET,
+
+422
+00:13:38.039 --> 00:13:39.789
+one of similar kind of question came up
+
+423
+00:13:40.200 --> 00:13:40.710
+where
+
+424
+00:13:41.080 --> 00:13:47.030
+what is given is you want this force such that it is only going to go vertically.
+
+425
+00:13:47.239 --> 00:13:47.630
+So what is,
+
+426
+00:13:47.640 --> 00:13:48.989
+what are you going to conclude
+
+427
+00:13:49.320 --> 00:13:53.760
+this eye cap plus that I cap plus this is also eye cap.
+
+428
+00:13:55.239 --> 00:13:55.960
+OK.
+
+429
+00:13:56.320 --> 00:13:57.239
+This plus this plus,
+
+430
+00:13:57.320 --> 00:13:58.520
+this must become what?
+
+431
+00:13:58.960 --> 00:14:01.799
+0 because ICAP force is 0.
+
+432
+00:14:02.039 --> 00:14:02.390
+OK.
+
+433
+00:14:02.479 --> 00:14:04.599
+So how much is my net ICAP force?
+
+434
+00:14:04.789 --> 00:14:06.159
+So I'll write ICAP.
+
+435
+00:14:07.119 --> 00:14:09.340
+How much is the ICAP for F?
+
+436
+00:14:10.609 --> 00:14:11.630
+Plus 3
+
+437
+00:14:11.960 --> 00:14:13.229
+minus 5
+
+438
+00:14:13.580 --> 00:14:14.549
+must be 0.
+
+439
+00:14:15.119 --> 00:14:15.880
+So what does that mean?
+
+440
+00:14:16.039 --> 00:14:17.280
+F minus 2 is 0,
+
+441
+00:14:17.359 --> 00:14:18.869
+so F must be equal to
+
+442
+00:14:19.390 --> 00:14:20.630
+2 Newtons.
+
+443
+00:14:20.960 --> 00:14:22.979
+So have I found out what is this force
+
+444
+00:14:23.760 --> 00:14:26.080
+2 Newtons in the ICAP direction.
+
+445
+00:14:27.219 --> 00:14:28.530
+Now suppose they ask you,
+
+446
+00:14:28.659 --> 00:14:29.900
+what is this acceleration,
+
+447
+00:14:30.020 --> 00:14:31.289
+find this acceleration.
+
+448
+00:14:31.700 --> 00:14:32.130
+Well,
+
+449
+00:14:32.500 --> 00:14:35.690
+this force plus this force plus this force became 0.
+
+450
+00:14:35.979 --> 00:14:36.929
+What is remaining
+
+451
+00:14:37.299 --> 00:14:37.859
+this
+
+452
+00:14:38.539 --> 00:14:39.369
+plus this.
+
+453
+00:14:39.539 --> 00:14:41.059
+So how much is the net force?
+
+454
+00:14:42.140 --> 00:14:43.809
+9 Jacap Newtons,
+
+455
+00:14:44.020 --> 00:14:45.140
+so F net.
+
+456
+00:14:46.099 --> 00:14:46.570
+Is
+
+457
+00:14:46.780 --> 00:14:49.619
+9 Jaca Newtons.
+
+458
+00:14:50.690 --> 00:14:51.750
+What happened to ICAP,
+
+459
+00:14:52.049 --> 00:14:52.530
+became 0,
+
+460
+00:14:52.570 --> 00:14:53.320
+cancelled out.
+
+461
+00:14:53.650 --> 00:14:55.010
+But if it is 9 JAP,
+
+462
+00:14:55.049 --> 00:14:57.840
+net force by mass will be the acceleration.
+
+463
+00:14:58.250 --> 00:14:59.460
+Net force is 9,
+
+464
+00:14:59.729 --> 00:15:00.679
+mass is 3,
+
+465
+00:15:00.890 --> 00:15:02.950
+so net force by mass 3.
+
+466
+00:15:03.169 --> 00:15:04.440
+So acceleration.
+
+467
+00:15:05.270 --> 00:15:05.869
+Is
+
+468
+00:15:06.190 --> 00:15:07.169
+F net
+
+469
+00:15:07.750 --> 00:15:09.390
+by mass,
+
+470
+00:15:09.750 --> 00:15:12.340
+and so that is going to give me 9 divided by 3,
+
+471
+00:15:12.590 --> 00:15:15.419
+so it is going to be 3 JAP units,
+
+472
+00:15:15.710 --> 00:15:18.229
+metres per second square.
+
+473
+00:15:19.940 --> 00:15:20.580
+Understood.
+
+474
+00:15:20.770 --> 00:15:22.070
+So this way what I have done
+
+475
+00:15:22.289 --> 00:15:24.489
+is that we can find both the force
+
+476
+00:15:24.969 --> 00:15:26.250
+as well as the acceleration.
+
+477
+00:15:26.289 --> 00:15:29.010
+But notice acceleration was not given in the beginning.
+
+478
+00:15:29.130 --> 00:15:31.609
+What was given is that it is going to be vertical.
+
+479
+00:15:31.650 --> 00:15:33.099
+That's that's all that was given.
+
+480
+00:15:33.289 --> 00:15:35.440
+So is that clear how to apply something like this?
+
+481
+00:15:35.530 --> 00:15:37.919
+If the force is given in terms of ING,
+
+482
+00:15:38.000 --> 00:15:40.570
+you should be able to combine it like this and solve.
+
+483
+00:15:41.590 --> 00:15:44.739
+Now what if the force is not given as ING?
+
+484
+00:15:45.099 --> 00:15:45.909
+What do I do?
+
+485
+00:15:46.119 --> 00:15:46.200
+Well,
+
+486
+00:15:46.280 --> 00:15:46.960
+you resolve,
+
+487
+00:15:47.119 --> 00:15:48.359
+so let us learn how to do that.
+
+488
+00:15:50.400 --> 00:15:54.960
+Many times we will be given forces that are inclined at some angle.
+
+489
+00:15:55.159 --> 00:15:57.369
+Let us say that this was a Force F.
+
+490
+00:15:58.919 --> 00:15:59.539
+OK,
+
+491
+00:15:59.880 --> 00:16:00.479
+and
+
+492
+00:16:00.840 --> 00:16:04.280
+it makes some angle theta with the horizontal.
+
+493
+00:16:05.659 --> 00:16:07.650
+Now this is not given in the form of
+
+494
+00:16:07.820 --> 00:16:09.659
+INJ ICAP JAP.
+
+495
+00:16:10.140 --> 00:16:11.450
+So we will convert it.
+
+496
+00:16:11.820 --> 00:16:14.330
+How much IAP this much IAP
+
+497
+00:16:14.979 --> 00:16:16.500
+plus this much JCAP,
+
+498
+00:16:16.510 --> 00:16:17.419
+but what is this much?
+
+499
+00:16:17.500 --> 00:16:18.770
+How do I know what is this much?
+
+500
+00:16:18.940 --> 00:16:21.609
+So let us say it was XIAP
+
+501
+00:16:22.219 --> 00:16:22.750
+Y
+
+502
+00:16:23.099 --> 00:16:23.669
+JAP.
+
+503
+00:16:24.929 --> 00:16:26.900
+But you know that this length is F,
+
+504
+00:16:27.090 --> 00:16:28.200
+this length is
+
+505
+00:16:28.450 --> 00:16:28.840
+X,
+
+506
+00:16:28.849 --> 00:16:30.489
+and this length is Y.
+
+507
+00:16:31.400 --> 00:16:31.929
+Then
+
+508
+00:16:32.270 --> 00:16:33.700
+Y by F.
+
+509
+00:16:33.880 --> 00:16:35.989
+What is Y by F?
+
+510
+00:16:36.440 --> 00:16:40.950
+It is the opposite side of this right angle triangle by the hypotenuse.
+
+511
+00:16:41.320 --> 00:16:42.900
+What is opposite by hypotenuse?
+
+512
+00:16:42.909 --> 00:16:44.630
+sine theta.
+
+513
+00:16:44.840 --> 00:16:49.200
+So this is sin of this angle opposite by hypotenuse.
+
+514
+00:16:49.719 --> 00:16:52.030
+So what is Y F sine theta?
+
+515
+00:16:52.190 --> 00:16:57.119
+So I will write this as F sine theta J.
+
+516
+00:16:58.859 --> 00:16:59.440
+And then
+
+517
+00:16:59.570 --> 00:17:00.799
+X by F.
+
+518
+00:17:01.770 --> 00:17:04.368
+XYF is costtita.
+
+519
+00:17:05.540 --> 00:17:07.890
+So it means X is F theta.
+
+520
+00:17:08.050 --> 00:17:09.969
+So instead of writing it as XIA,
+
+521
+00:17:10.368 --> 00:17:12.920
+I will write it as F theta.
+
+522
+00:17:13.939 --> 00:17:14.520
+ICAP.
+
+523
+00:17:15.209 --> 00:17:15.410
+In fact,
+
+524
+00:17:15.449 --> 00:17:17.920
+you should do this all the time automatically.
+
+525
+00:17:18.010 --> 00:17:21.239
+You look at this first and then you immediately say,
+
+526
+00:17:21.680 --> 00:17:25.010
+what is this component we call this the component
+
+527
+00:17:25.510 --> 00:17:25.930
+F.
+
+528
+00:17:26.810 --> 00:17:26.819
+The
+
+529
+00:17:29.319 --> 00:17:30.750
+F cause theta.
+
+530
+00:17:33.380 --> 00:17:34.359
+Other side
+
+531
+00:17:35.770 --> 00:17:36.849
+of sin theta.
+
+532
+00:17:36.939 --> 00:17:38.260
+Always F theta is easy.
+
+533
+00:17:38.920 --> 00:17:41.319
+F cost theta F sine theta.
+
+534
+00:17:41.500 --> 00:17:42.180
+Is that OK?
+
+535
+00:17:42.369 --> 00:17:44.010
+So if you can rewrite,
+
+536
+00:17:44.380 --> 00:17:46.810
+so suppose I want to rewrite if I'll write it like this.
+
+537
+00:17:47.540 --> 00:17:48.089
+OK,
+
+538
+00:17:48.250 --> 00:17:51.829
+so if you can write it as F theta IAP.
+
+539
+00:17:52.900 --> 00:17:54.489
+F theta
+
+540
+00:17:55.099 --> 00:17:55.540
+IA.
+
+541
+00:17:55.900 --> 00:17:56.849
+What is this F?
+
+542
+00:17:57.099 --> 00:17:58.060
+Just the magnitude,
+
+543
+00:17:58.180 --> 00:17:59.160
+just the size.
+
+544
+00:17:59.459 --> 00:17:59.810
+OK.
+
+545
+00:17:59.859 --> 00:18:02.420
+F theta IAP makes it with direction.
+
+546
+00:18:03.390 --> 00:18:05.239
+Plus F sine theta.
+
+547
+00:18:06.930 --> 00:18:07.609
+Jacob
+
+548
+00:18:08.719 --> 00:18:11.670
+Now that means I need to remember cost theta sine theta,
+
+549
+00:18:11.930 --> 00:18:13.550
+various values for it.
+
+550
+00:18:13.800 --> 00:18:15.109
+I've given you a list here.
+
+551
+00:18:15.239 --> 00:18:16.270
+You know this already.
+
+552
+00:18:16.520 --> 00:18:19.069
+Most of you probably know for angle 0,
+
+553
+00:18:19.119 --> 00:18:19.560
+30,
+
+554
+00:18:19.640 --> 00:18:20.199
+45,
+
+555
+00:18:20.209 --> 00:18:20.640
+60,
+
+556
+00:18:20.680 --> 00:18:21.310
+and 90.
+
+557
+00:18:21.479 --> 00:18:21.670
+You know,
+
+558
+00:18:21.680 --> 00:18:22.560
+sine 0 is 0,
+
+559
+00:18:22.680 --> 00:18:23.750
+sign 30 is half.
+
+560
+00:18:23.920 --> 00:18:24.170
+OK.
+
+561
+00:18:24.479 --> 00:18:26.760
+45 is 1 by route 2,
+
+562
+00:18:26.849 --> 00:18:27.510
+60s,
+
+563
+00:18:27.680 --> 00:18:28.510
+Route 3 by 2,
+
+564
+00:18:28.520 --> 00:18:29.790
+and sign 90 is 1.
+
+565
+00:18:29.959 --> 00:18:30.239
+OK.
+
+566
+00:18:30.359 --> 00:18:30.400
+Now,
+
+567
+00:18:30.599 --> 00:18:31.310
+if you don't remember,
+
+568
+00:18:31.400 --> 00:18:34.449
+you should definitely memorise this because it is going to come up everywhere.
+
+569
+00:18:34.910 --> 00:18:37.250
+Two important extra
+
+570
+00:18:37.760 --> 00:18:38.359
+information.
+
+571
+00:18:39.280 --> 00:18:43.650
+Sign 37 is almost 3 by 5.
+
+572
+00:18:44.040 --> 00:18:44.380
+OK,
+
+573
+00:18:44.560 --> 00:18:46.949
+so now if you look at this triangle.
+
+574
+00:18:48.079 --> 00:18:50.599
+345.
+
+575
+00:18:50.619 --> 00:18:51.719
+You remember this triangle,
+
+576
+00:18:51.780 --> 00:18:52.250
+right?
+
+577
+00:18:52.449 --> 00:18:53.790
+Now if you take this triangle,
+
+578
+00:18:54.060 --> 00:18:55.030
+this angle
+
+579
+00:18:55.219 --> 00:18:58.060
+is almost 37 degrees.
+
+580
+00:18:58.619 --> 00:18:59.800
+Exactly you should look at it.
+
+581
+00:18:59.810 --> 00:19:01.619
+It will be some 36.9 something,
+
+582
+00:19:01.819 --> 00:19:03.180
+slightly less than 37,
+
+583
+00:19:03.420 --> 00:19:05.099
+but we will call it 37 degrees.
+
+584
+00:19:05.219 --> 00:19:07.930
+Many questions will say angle is 37.
+
+585
+00:19:08.459 --> 00:19:10.540
+Sign 37 3 by 5.
+
+586
+00:19:11.569 --> 00:19:12.599
+Cost 37,
+
+587
+00:19:12.680 --> 00:19:13.800
+4 by 5.
+
+588
+00:19:14.010 --> 00:19:15.569
+And then if you look at this angle,
+
+589
+00:19:15.890 --> 00:19:18.199
+this angle is 53 degrees.
+
+590
+00:19:18.530 --> 00:19:19.959
+So sign 53,
+
+591
+00:19:19.969 --> 00:19:20.969
+4 by 5.
+
+592
+00:19:21.819 --> 00:19:22.849
+Cost 53,
+
+593
+00:19:22.939 --> 00:19:23.550
+free Wi Fi.
+
+594
+00:19:24.099 --> 00:19:25.369
+Just remember this,
+
+595
+00:19:25.660 --> 00:19:26.869
+this is a very important.
+
+596
+00:19:27.859 --> 00:19:29.140
+Value to just keep in mind.
+
+597
+00:19:29.349 --> 00:19:31.290
+So many questions we'll say 37 degrees.
+
+598
+00:19:31.510 --> 00:19:35.739
+Advantage is sin 37 3 by 5 rational number integers.
+
+599
+00:19:36.219 --> 00:19:38.219
+Again there 4 by 5 integers.
+
+600
+00:19:38.349 --> 00:19:40.819
+Whereas if you take sine 60 route 3 is
+
+601
+00:19:41.150 --> 00:19:42.180
+difficult to play with.
+
+602
+00:19:42.469 --> 00:19:43.739
+Cos 60 is very nice,
+
+603
+00:19:43.910 --> 00:19:44.839
+but sine 60 is not.
+
+604
+00:19:44.869 --> 00:19:45.229
+OK.
+
+605
+00:19:45.550 --> 00:19:46.819
+Let us take an example.
+
+606
+00:19:47.550 --> 00:19:48.150
+So for example,
+
+607
+00:19:48.420 --> 00:19:49.219
+suppose I had
+
+608
+00:19:49.949 --> 00:19:51.709
+20 Newton 4s.
+
+609
+00:19:52.890 --> 00:19:56.160
+Making an angle of 60 degrees.
+
+610
+00:19:57.380 --> 00:20:00.140
+Write this force as a vector.
+
+611
+00:20:00.260 --> 00:20:01.979
+So if I write this force as a vector.
+
+612
+00:20:03.189 --> 00:20:04.300
+How much is this?
+
+613
+00:20:04.709 --> 00:20:06.489
+20 costs 60,
+
+614
+00:20:06.510 --> 00:20:08.260
+so 20 cost $60.
+
+615
+00:20:08.270 --> 00:20:09.109
+Look at cost 60,
+
+616
+00:20:09.150 --> 00:20:11.069
+costs 60 is half.
+
+617
+00:20:13.459 --> 00:20:14.349
+Which means
+
+618
+00:20:14.939 --> 00:20:16.569
+10 like this.
+
+619
+00:20:16.900 --> 00:20:18.060
+And then what about this?
+
+620
+00:20:19.489 --> 00:20:22.520
+2060.
+
+621
+00:20:23.050 --> 00:20:25.540
+60 is Route 3 by 2.
+
+622
+00:20:25.890 --> 00:20:27.199
+So 10 route 3.
+
+623
+00:20:29.079 --> 00:20:29.920
+Therefore,
+
+624
+00:20:30.060 --> 00:20:31.780
+if I call this force F,
+
+625
+00:20:32.060 --> 00:20:32.780
+what is F?
+
+626
+00:20:35.099 --> 00:20:35.500
+10
+
+627
+00:20:36.760 --> 00:20:36.780
+IA.
+
+628
+00:20:38.410 --> 00:20:39.140
+Plus
+
+629
+00:20:39.520 --> 00:20:43.280
+10 route 3 JAP Newtons.
+
+630
+00:20:48.109 --> 00:20:49.339
+Why is this useful?
+
+631
+00:20:49.760 --> 00:20:51.680
+Because if I now have a question where
+
+632
+00:20:51.869 --> 00:20:53.270
+there is one force like this,
+
+633
+00:20:53.390 --> 00:20:54.430
+one force like this,
+
+634
+00:20:54.550 --> 00:20:55.439
+one force like this,
+
+635
+00:20:55.449 --> 00:20:56.530
+and I want to add,
+
+636
+00:20:56.709 --> 00:20:58.790
+you will see that this becomes extremely useful.
+
+637
+00:20:58.839 --> 00:20:59.229
+OK.
+
+638
+00:20:59.469 --> 00:20:59.619
+Now,
+
+639
+00:20:59.630 --> 00:21:00.750
+if this was not 60,
+
+640
+00:21:00.790 --> 00:21:02.750
+but it was 53 degrees,
+
+641
+00:21:02.989 --> 00:21:05.910
+then I will use sine 53 4 by 5.
+
+642
+00:21:06.310 --> 00:21:06.530
+OK,
+
+643
+00:21:06.609 --> 00:21:12.819
+so cost 53 for uh for first for this 13 by 5 and sign 63 for that which is 4 by 5.
+
+644
+00:21:12.969 --> 00:21:13.349
+OK.
+
+645
+00:21:13.569 --> 00:21:15.199
+You'll see that there won't be a route 3,
+
+646
+00:21:15.329 --> 00:21:16.520
+there will just be a 4 by 5,
+
+647
+00:21:16.569 --> 00:21:17.469
+which makes it easy
+
+648
+00:21:17.689 --> 00:21:18.579
+for calculation,
+
+649
+00:21:18.650 --> 00:21:19.020
+OK.
+
+650
+00:21:19.209 --> 00:21:19.530
+Otherwise,
+
+651
+00:21:19.540 --> 00:21:21.439
+you should know what to do with the Route 3 as well.
+
+652
+00:21:21.609 --> 00:21:22.420
+So let us do
+
+653
+00:21:22.650 --> 00:21:27.089
+one question where we have multiple forces and we want to find the acceleration.
+
+654
+00:21:28.439 --> 00:21:30.069
+So now let us look at this question.
+
+655
+00:21:30.229 --> 00:21:30.979
+So in this question,
+
+656
+00:21:31.010 --> 00:21:33.540
+there is a 4 kg block in space.
+
+657
+00:21:33.709 --> 00:21:35.069
+Assume this whole thing is in
+
+658
+00:21:35.630 --> 00:21:36.329
+space.
+
+659
+00:21:36.989 --> 00:21:38.900
+What is the difference if it was not in space?
+
+660
+00:21:39.189 --> 00:21:41.310
+Then I'm going to have to worry about gravitational force,
+
+661
+00:21:41.349 --> 00:21:42.310
+which I'm not drawing here,
+
+662
+00:21:42.390 --> 00:21:42.709
+OK?
+
+663
+00:21:42.829 --> 00:21:43.910
+So it's in space.
+
+664
+00:21:44.229 --> 00:21:47.900
+Now there is one force which is minus 3 I + 7 J Newton,
+
+665
+00:21:48.150 --> 00:21:49.040
+then there is one
+
+666
+00:21:49.189 --> 00:21:50.979
+which is 4 Newton upward.
+
+667
+00:21:51.189 --> 00:21:55.099
+You can always add the J and say this is for JA Newtons,
+
+668
+00:21:55.469 --> 00:21:55.750
+OK.
+
+669
+00:21:56.290 --> 00:21:57.209
+Why is this minus?
+
+670
+00:21:57.290 --> 00:21:58.209
+Because it's this way,
+
+671
+00:21:58.290 --> 00:22:01.780
+-3IAP plus 7 because it's upwards.
+
+672
+00:22:01.849 --> 00:22:02.369
+So this way,
+
+673
+00:22:02.420 --> 00:22:02.810
+this way.
+
+674
+00:22:03.880 --> 00:22:06.729
+Now that force I don't know in the IJ form,
+
+675
+00:22:06.900 --> 00:22:07.020
+OK,
+
+676
+00:22:07.060 --> 00:22:11.479
+but I know it's 10 Newton magnitude at an angle of 30 degrees.
+
+677
+00:22:11.579 --> 00:22:12.819
+And then there is a 3
+
+678
+00:22:13.219 --> 00:22:15.770
+IAP because it's a horizontal force.
+
+679
+00:22:16.060 --> 00:22:17.930
+What is the acceleration
+
+680
+00:22:18.219 --> 00:22:20.119
+of the 4 kg block?
+
+681
+00:22:20.219 --> 00:22:21.020
+So that is the question.
+
+682
+00:22:21.989 --> 00:22:23.079
+How we go about it?
+
+683
+00:22:23.310 --> 00:22:25.040
+We'll need to find the net force
+
+684
+00:22:25.310 --> 00:22:26.739
+and then divide by the mass.
+
+685
+00:22:27.150 --> 00:22:28.819
+So net force.
+
+686
+00:22:30.560 --> 00:22:31.560
+By mass,
+
+687
+00:22:31.569 --> 00:22:32.709
+what is the mass?
+
+688
+00:22:32.719 --> 00:22:33.569
+4 kg.
+
+689
+00:22:34.089 --> 00:22:35.109
+So this is easy.
+
+690
+00:22:35.489 --> 00:22:36.510
+What is the problem?
+
+691
+00:22:36.849 --> 00:22:37.910
+Net force,
+
+692
+00:22:38.050 --> 00:22:39.040
+that is the problem.
+
+693
+00:22:39.290 --> 00:22:40.719
+So if I want this acceleration,
+
+694
+00:22:40.890 --> 00:22:42.410
+I need to find net force.
+
+695
+00:22:43.959 --> 00:22:45.130
+This is easy to add,
+
+696
+00:22:45.560 --> 00:22:46.319
+this is easy to add,
+
+697
+00:22:46.439 --> 00:22:47.040
+this is easy to add.
+
+698
+00:22:47.119 --> 00:22:47.630
+What is the problem?
+
+699
+00:22:47.680 --> 00:22:48.829
+That fellow is the problem.
+
+700
+00:22:49.000 --> 00:22:49.469
+Why?
+
+701
+00:22:49.719 --> 00:22:50.800
+Because it's some weird angle.
+
+702
+00:22:51.000 --> 00:22:51.739
+What do I do?
+
+703
+00:22:52.089 --> 00:22:54.709
+I will rewrite this in the form of
+
+704
+00:22:54.959 --> 00:22:56.089
+I and J.
+
+705
+00:22:56.280 --> 00:22:57.290
+How much I.
+
+706
+00:22:59.239 --> 00:22:59.849
+10
+
+707
+00:23:00.119 --> 00:23:01.660
+cost 30.
+
+708
+00:23:01.869 --> 00:23:02.310
+10,
+
+709
+00:23:02.400 --> 00:23:03.589
+so that is right here.
+
+710
+00:23:03.800 --> 00:23:05.569
+10 cost 30.
+
+711
+00:23:05.719 --> 00:23:06.800
+What is cost 30?
+
+712
+00:23:07.540 --> 00:23:08.729
+I'll write cost 30,
+
+713
+00:23:08.770 --> 00:23:10.560
+but you should be able to calculate.
+
+714
+00:23:10.890 --> 00:23:13.930
+Cost 30 is equal to route 3 by 2.
+
+715
+00:23:13.969 --> 00:23:16.060
+You can see there it is Route 3 by 2.
+
+716
+00:23:16.310 --> 00:23:17.680
+Now what happens if you forget.
+
+717
+00:23:18.449 --> 00:23:18.930
+Bad luck.
+
+718
+00:23:18.969 --> 00:23:20.849
+You need to remember these values.
+
+719
+00:23:20.969 --> 00:23:21.359
+OK.
+
+720
+00:23:21.449 --> 00:23:23.229
+This is going to come up 100 times,
+
+721
+00:23:23.239 --> 00:23:24.589
+1000 times.
+
+722
+00:23:24.810 --> 00:23:26.359
+You will find this everywhere.
+
+723
+00:23:26.650 --> 00:23:29.119
+You should memorise this entire set
+
+724
+00:23:29.329 --> 00:23:31.459
+and you should not take time to come up with it.
+
+725
+00:23:31.469 --> 00:23:34.079
+You should cost 30 Route 3 by 2.
+
+726
+00:23:34.209 --> 00:23:36.109
+So 10 times Route 3 by 2,
+
+727
+00:23:36.329 --> 00:23:39.280
+10 route 3 by 2 is how much?
+
+728
+00:23:39.290 --> 00:23:40.660
+5 route 3.
+
+729
+00:23:42.890 --> 00:23:43.709
+Newton's
+
+730
+00:23:45.030 --> 00:23:45.550
+OK.
+
+731
+00:23:45.989 --> 00:23:47.760
+But then there is also this component.
+
+732
+00:23:48.569 --> 00:23:50.030
+How much is this component?
+
+733
+00:23:50.609 --> 00:23:52.410
+10 costs 30.
+
+734
+00:23:53.229 --> 00:23:55.060
+1030,
+
+735
+00:23:55.270 --> 00:23:57.810
+so 1030 is how much?
+
+736
+00:23:57.930 --> 00:23:58.270
+Half.
+
+737
+00:23:59.439 --> 00:24:00.260
+This is cost 30,
+
+738
+00:24:00.300 --> 00:24:01.689
+that's automatically signed 30,
+
+739
+00:24:01.739 --> 00:24:02.069
+OK.
+
+740
+00:24:02.300 --> 00:24:03.260
+So how much is this?
+
+741
+00:24:03.270 --> 00:24:05.609
+10 into half it's 5 Newtons.
+
+742
+00:24:05.939 --> 00:24:07.229
+So this force,
+
+743
+00:24:07.579 --> 00:24:14.069
+you can rewrite this force as 5 route 3 IAP.
+
+744
+00:24:15.989 --> 00:24:16.359
+Plus,
+
+745
+00:24:16.500 --> 00:24:17.819
+because it's pointing up.
+
+746
+00:24:18.000 --> 00:24:19.469
+If this force was pointing down,
+
+747
+00:24:19.520 --> 00:24:21.270
+it will be -5 Jcap,
+
+748
+00:24:21.359 --> 00:24:22.239
+but this is going up,
+
+749
+00:24:22.280 --> 00:24:24.209
+so therefore it is plus
+
+750
+00:24:24.560 --> 00:24:27.380
+5 Jcap Newtons.
+
+751
+00:24:29.089 --> 00:24:29.410
+Now,
+
+752
+00:24:29.420 --> 00:24:30.810
+can you add up all the vectors?
+
+753
+00:24:30.900 --> 00:24:31.180
+You can,
+
+754
+00:24:31.260 --> 00:24:31.599
+right?
+
+755
+00:24:31.739 --> 00:24:32.969
+So let us quickly add
+
+756
+00:24:33.260 --> 00:24:35.089
+-3 IAP.
+
+757
+00:24:35.619 --> 00:24:36.689
+So let me do all this.
+
+758
+00:24:36.859 --> 00:24:38.369
+-3
+
+759
+00:24:38.939 --> 00:24:39.849
+IAP.
+
+760
+00:24:40.060 --> 00:24:41.390
+I don't need to add this.
+
+761
+00:24:41.660 --> 00:24:42.699
+Do I need to add that?
+
+762
+00:24:42.760 --> 00:24:43.150
+Yes,
+
+763
+00:24:43.270 --> 00:24:45.010
+plus 3 IAP.
+
+764
+00:24:45.819 --> 00:24:46.619
+So this is done,
+
+765
+00:24:46.739 --> 00:24:47.420
+this is done.
+
+766
+00:24:48.930 --> 00:24:49.699
+Plus
+
+767
+00:24:50.170 --> 00:24:51.760
+5 Root 3
+
+768
+00:24:52.339 --> 00:24:52.890
+IA.
+
+769
+00:24:55.430 --> 00:24:56.500
+This is also done.
+
+770
+00:24:57.699 --> 00:24:57.709
+Now,
+
+771
+00:24:58.729 --> 00:24:59.229
+JAP.
+
+772
+00:24:59.770 --> 00:25:00.800
+What is a JAP?
+
+773
+00:25:01.089 --> 00:25:02.199
+So plus,
+
+774
+00:25:02.530 --> 00:25:04.760
+so let me actually write the JAP down here.
+
+775
+00:25:04.969 --> 00:25:05.170
+OK,
+
+776
+00:25:05.219 --> 00:25:06.780
+so plus so what JAP.
+
+777
+00:25:06.849 --> 00:25:07.760
+What JAP
+
+778
+00:25:08.410 --> 00:25:09.530
+7 JAP.
+
+779
+00:25:12.479 --> 00:25:13.400
+4JA.
+
+780
+00:25:15.329 --> 00:25:16.199
+Anything else?
+
+781
+00:25:16.569 --> 00:25:16.800
+Done,
+
+782
+00:25:16.900 --> 00:25:17.170
+done,
+
+783
+00:25:17.229 --> 00:25:17.770
+done,
+
+784
+00:25:17.839 --> 00:25:18.439
+done,
+
+785
+00:25:18.849 --> 00:25:19.319
+done.
+
+786
+00:25:20.729 --> 00:25:20.900
+Right,
+
+787
+00:25:20.930 --> 00:25:21.329
+this part,
+
+788
+00:25:21.369 --> 00:25:22.439
+but that is not yet done,
+
+789
+00:25:22.609 --> 00:25:23.449
+so plus
+
+790
+00:25:24.290 --> 00:25:24.849
+5 J.
+
+791
+00:25:27.109 --> 00:25:28.219
+Divided by
+
+792
+00:25:28.349 --> 00:25:29.280
+4 kg,
+
+793
+00:25:29.550 --> 00:25:31.140
+this many Newtons
+
+794
+00:25:31.469 --> 00:25:33.069
+by so many kgs.
+
+795
+00:25:33.959 --> 00:25:36.670
+This is going to give me metres per second square SI units.
+
+796
+00:25:37.939 --> 00:25:41.130
+Acceleration of the 4 kg block
+
+797
+00:25:41.660 --> 00:25:43.619
+vector vector acceleration.
+
+798
+00:25:45.390 --> 00:25:46.670
+-3 + 3 cancers,
+
+799
+00:25:46.750 --> 00:25:49.579
+5 route 3 divided by 4,
+
+800
+00:25:49.989 --> 00:25:52.380
+so 5 route 3 by 4
+
+801
+00:25:53.040 --> 00:25:54.099
+ICAP,
+
+802
+00:25:54.709 --> 00:25:55.589
+and what is this?
+
+803
+00:25:57.500 --> 00:25:59.619
+5 + 77 + 5,
+
+804
+00:25:59.660 --> 00:26:01.010
+1212 + 4,
+
+805
+00:26:01.020 --> 00:26:04.010
+1616 divided by 44.
+
+806
+00:26:04.260 --> 00:26:05.140
+So 4
+
+807
+00:26:05.459 --> 00:26:06.089
+JAP
+
+808
+00:26:06.780 --> 00:26:08.069
+metres per
+
+809
+00:26:08.699 --> 00:26:09.609
+second squared.
+
+810
+00:26:10.099 --> 00:26:11.130
+This is the vector,
+
+811
+00:26:11.739 --> 00:26:13.020
+but suppose they ask you,
+
+812
+00:26:13.060 --> 00:26:13.640
+look at the direction.
+
+813
+00:26:13.780 --> 00:26:15.300
+This is something I kept something JAP.
+
+814
+00:26:15.500 --> 00:26:16.930
+It is going in that direction.
+
+815
+00:26:17.099 --> 00:26:18.660
+This is a messy question,
+
+816
+00:26:18.739 --> 00:26:20.369
+but you've got an easy answer.
+
+817
+00:26:20.780 --> 00:26:21.459
+Suppose somebody says,
+
+818
+00:26:21.540 --> 00:26:21.560
+no,
+
+819
+00:26:21.579 --> 00:26:21.619
+no,
+
+820
+00:26:21.819 --> 00:26:22.410
+I don't want this,
+
+821
+00:26:22.420 --> 00:26:23.489
+I want a
+
+822
+00:26:23.849 --> 00:26:24.810
+magnitude.
+
+823
+00:26:26.739 --> 00:26:27.979
+Which means we write it like this,
+
+824
+00:26:28.020 --> 00:26:30.089
+just a no arrow on top.
+
+825
+00:26:30.459 --> 00:26:31.250
+What is the answer?
+
+826
+00:26:32.270 --> 00:26:33.219
+Rudolph.
+
+827
+00:26:34.880 --> 00:26:36.709
+This square plus that square.
+
+828
+00:26:36.920 --> 00:26:37.949
+What is this square?
+
+829
+00:26:38.160 --> 00:26:40.229
+5 square will be 25.
+
+830
+00:26:41.380 --> 00:26:43.349
+4 square 16,
+
+831
+00:26:43.699 --> 00:26:46.849
+root of 3 whole square will basically give me 3.
+
+832
+00:26:48.150 --> 00:26:49.099
+Plus 4 square,
+
+833
+00:26:49.140 --> 00:26:49.869
+which is 60.
+
+834
+00:26:50.890 --> 00:26:51.849
+You can take this there,
+
+835
+00:26:51.869 --> 00:26:55.140
+simplify 75 + 1616 is going to be something,
+
+836
+00:26:55.290 --> 00:26:55.400
+right?
+
+837
+00:26:55.410 --> 00:26:55.930
+256,
+
+838
+00:26:55.969 --> 00:26:56.719
+you can add it,
+
+839
+00:26:57.010 --> 00:26:58.359
+then you can take the square root,
+
+840
+00:26:58.729 --> 00:26:59.849
+but you'll get some number,
+
+841
+00:26:59.969 --> 00:27:00.839
+weird number,
+
+842
+00:27:01.089 --> 00:27:02.050
+and that is the answer.
+
+843
+00:27:02.790 --> 00:27:03.069
+OK,
+
+844
+00:27:03.140 --> 00:27:04.569
+so much metres per second squared.
+
+845
+00:27:04.579 --> 00:27:05.420
+Obviously you need to simplify.
+
+846
+00:27:05.459 --> 00:27:06.260
+I'm not doing that.
+
+847
+00:27:06.540 --> 00:27:07.770
+So is that clear to everybody?
+
+848
+00:27:07.939 --> 00:27:09.729
+You understood how to solve this problem
+
+849
+00:27:10.099 --> 00:27:14.130
+because what is important here is that you resolve this force.
+
+850
+00:27:14.420 --> 00:27:16.199
+Now this was given in ING.
+
+851
+00:27:16.500 --> 00:27:18.569
+Suppose this was also given with an angle,
+
+852
+00:27:18.859 --> 00:27:19.869
+you will resolve.
+
+853
+00:27:20.380 --> 00:27:23.270
+Suppose instead of giving you this angle or this angle,
+
+854
+00:27:23.459 --> 00:27:25.050
+this angle was given,
+
+855
+00:27:25.339 --> 00:27:28.140
+then you will say this force causes.
+
+856
+00:27:28.920 --> 00:27:29.880
+will be that
+
+857
+00:27:30.400 --> 00:27:32.599
+because this angle can also be theta.
+
+858
+00:27:33.119 --> 00:27:36.550
+Then you will say F cause theta will be that component,
+
+859
+00:27:36.800 --> 00:27:39.390
+F sine theta will be this component.
+
+860
+00:27:40.140 --> 00:27:42.880
+You have to be a bit careful then cost theta JAP.
+
+861
+00:27:43.510 --> 00:27:46.709
+Sine theta will give you minus ICAP because it's pointing in that direction.
+
+862
+00:27:46.920 --> 00:27:47.239
+Luckily,
+
+863
+00:27:47.280 --> 00:27:48.849
+we don't have this in this question,
+
+864
+00:27:49.160 --> 00:27:49.319
+OK,
+
+865
+00:27:49.359 --> 00:27:50.229
+but we may have.
+
+866
+00:27:50.439 --> 00:27:50.839
+Now,
+
+867
+00:27:51.160 --> 00:27:51.760
+unfortunately,
+
+868
+00:27:51.839 --> 00:27:53.390
+all the questions we were doing
+
+869
+00:27:53.680 --> 00:27:54.959
+are all in space.
+
+870
+00:27:55.770 --> 00:27:57.140
+I didn't have to count
+
+871
+00:27:57.560 --> 00:27:58.239
+gravity.
+
+872
+00:27:58.439 --> 00:28:00.469
+I didn't have to worry about the floor.
+
+873
+00:28:00.839 --> 00:28:00.880
+Now,
+
+874
+00:28:01.160 --> 00:28:02.479
+sometimes all of that will matter.
+
+875
+00:28:02.640 --> 00:28:04.510
+So let us take a couple of questions
+
+876
+00:28:04.839 --> 00:28:05.349
+where
+
+877
+00:28:05.599 --> 00:28:07.989
+you have forces acting at angles,
+
+878
+00:28:08.130 --> 00:28:10.630
+but you have it on the surface of the earth.
+
+879
+00:28:10.680 --> 00:28:12.949
+That means there is imagine a big box.
+
+880
+00:28:13.400 --> 00:28:16.229
+I place it on a table and I'm pulling like this.
+
+881
+00:28:16.560 --> 00:28:18.349
+My forces at an angle,
+
+882
+00:28:18.719 --> 00:28:19.280
+right?
+
+883
+00:28:19.430 --> 00:28:21.719
+But the block is probably going to move horizontally.
+
+884
+00:28:22.140 --> 00:28:23.130
+It may also move up,
+
+885
+00:28:23.170 --> 00:28:24.369
+but it may move horizontally.
+
+886
+00:28:24.569 --> 00:28:26.089
+So let us look at a question like that.
