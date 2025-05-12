@@ -13,12 +13,12 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 700px;
+    /* width: 700px; */
     text-align: center;
 }
 
 video {
-    width: 100%;
+    /* width: 100%; */
     border-radius: 8px;
 }
 
@@ -44,8 +44,8 @@ video {
 }
 
 .my-video-dimensions {
-    width: 660px;
-    height: 400px;
+    width: 755px;
+    height: 460px;
     border-radius: 50px;
     background:white
 }
@@ -54,9 +54,8 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 660px;
-    margin-left: -5px;
-    border-radius: 20px;
+    width: 855px;
+    margin-left: -20px;
 }
 
 #Video-Transcribe {
@@ -71,13 +70,24 @@ video {
 }
 
 
-#Video-Transcribe-title{
+#transcribeTabs{
     background: #0000ff;
     color: white;
     font-size: larger;
     font-weight: 600;
     border-radius: 12px 12px 0px 0px;
     padding: 10px;
+    padding-bottom: 0px;
+}
+
+#transcribeTabs button {
+    color: white;
+    font-weight: 500;
+}
+
+#transcribeTabs button.active {
+    color: #0000ff; /* Blue color for the active tab */
+    font-weight: 500;
 }
 
 #Video-Transcribe-footer{
@@ -87,6 +97,12 @@ video {
     font-weight: 600;
     border-radius: 0px 0px 12px 12px;
     padding: 10px;
+    margin-top: -10px !important;
+}
+
+#Video-Transcribe-footer span{
+    color: white;
+    
 }
 
 .ask-ai-container.simple {
@@ -125,3 +141,158 @@ video {
     font-size: 24px;
     padding-right: 5px;
 }   
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#qna-tab-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+#qna-tab-content {
+    padding: 10px;
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+}
+
+.question-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.question-text {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.answer {
+    margin-top: 5px;
+}
+
+.timestamp-link {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #007bff;
+}
+
+#video-container {
+    position: relative; /* Needed for absolute positioning of the Q&A */
+    width: 80%;       /* Or whatever width you want */
+    margin: 0 auto;
+}
+
+#my-video {
+    width: 100%;
+}
+
+.qna-timeStemp{
+    font-size: 12px;
+}
+
+.collapse{
+    background-color: #f4f4f4;
+}
+
+ .nav-tabs .nav-link {
+      color: #495057;
+      font-weight: 500;
+    }
+    .nav-tabs .nav-link.active {
+      color: #0d6efd;
+      background-color: #fff;
+      border-color: #dee2e6 #dee2e6 #fff;
+    }
+    .tab-content {
+      border: 1px solid #dee2e6;
+      border-top: none;
+      padding: 1rem;
+      background: white;
+      border-radius: 0 0 0.25rem 0.25rem;
+    }
+
+
+ /* Send button styling */
+        
+        /* Chat bubble styling */
+        .chat-container {
+            margin-top: 20px;
+            display: none; /* Hidden by default */
+        }
+        
+        .question-bubble {
+            background-color: #4a6baf;
+            color: white;
+            padding: 12px 16px;
+            border-radius: 18px 18px 0 18px;
+            margin-bottom: 8px;
+            max-width: 80%;
+            float: right;
+            clear: both;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .answer-bubble {
+            background-color: #e9ecef;
+            color: #333;
+            padding: 12px 16px;
+            border-radius: 18px 18px 18px 0;
+            margin-bottom: 20px;
+            max-width: 80%;
+            float: left;
+            clear: both;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Icon styling */
+        .fa-chalkboard-user {
+            color: #4a6baf;
+            font-size: 20px;
+        }
+
+.ask-ai-pre-qna-btn{
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    border-radius: 5px;
+    color: white;
+    background: #0000ff;
+    border: 0px;
+    padding-right: 15px;
+    cursor: pointer;
+}

@@ -13,46 +13,140 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
   <link rel="stylesheet" href="/static/css/style.css">
+
 </head>
 <body>
-  <div class="container">
+
+  <div class="container" style="margin-top: 400px; margin-bottom:300px; ">
     <div class="row">
       <!-- Video player and CC -->
       <div class="col-md-8">
         <div class="video-container">
           <video id="my-video" class="video-js vjs-default-skin" controls preload="auto">
             <source src="/static/videos/BS1064NEET26MAY18V1-en.mp4" type="video/mp4" />
-            
             <track id="track-en" src="/static/subtitles/ahaguru-Transcription-sample-001_en.vtt" kind="subtitles" srclang="en" label="English" default>
             <track id="track-hi" src="/static/subtitles/ahaguru-Transcription-sample-001_hindi.vtt" kind="subtitles" srclang="hi" label="Hindi">
             <track id="track-ta" src="/static/subtitles/ahaguru-Transcription-sample-001_tamil.vtt" kind="subtitles" srclang="ta" label="Tamil">
-            
             Your browser does not support the video tag.
           </video>
 
           <div id="cc-div" class="mt-2">No captions selected</div>
         </div>
         <br />
-        <div class="ask-ai-container simple" style="width:700px !important">
-          <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
-          <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI" />
-          &nbsp;&nbsp;
-          <button id='ask-ai-btn'><i class="fa-solid fa-hand"></i></button>
+        <div class='video-tab-container'>
+          <!-- Video Tabs Navigation -->
+          <ul class="nav nav-tabs" id="videoTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" type="button" role="tab" aria-controls="video" aria-selected="true">Video</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="summary-tab" data-bs-toggle="tab" data-bs-target="#ai-summary" type="button" role="tab" aria-controls="summary" aria-selected="false">Summary</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="qna-tab" data-bs-toggle="tab" data-bs-target="#qna" type="button" role="tab" aria-controls="qna" aria-selected="false">Q&A</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false">Review</button>
+            </li>
+          </ul>
+          
+          <!-- Video Tabs Content -->
+          <div class="tab-content" id="videoTabsContent">
+            <div class="tab-pane fade show active" id="video" role="tabpanel" aria-labelledby="video-tab">
+                <h3>Motion and Forces</h3>
+                <p>Additional video-related metadata can be displayed here.</p>
+                <p>This may include details such as video weightage, related or linked videos, topic and subtopic tags, relevant hyperlinks, and other useful information.</p>
+            </div>
+            <div class="tab-pane fade" id="ai-summary" role="tabpanel" aria-labelledby="summary-tab">
+            </div>
+            <div class="tab-pane fade" id="qna" role="tabpanel" aria-labelledby="qna-tab">
+                <div class="mb-3" id="qna-container">
+
+                </div>
+              <button class="btn btn-primary" disabled>Ask a Question</button>
+            </div>
+            <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+              <div class="mb-3">
+                <h5>Student Reviews</h5>
+                <div class="card mb-2">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="card-title">Krunal Rana</h6>
+                      <div>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <p class="card-text">Great explanation of the concepts!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="card-title">Team Analytics</h6>
+                      <div>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary" disabled>Write a Review</button>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Transcript section -->
       <div class="col-md-4">
-        <div id="Video-Transcribe-title">
-          <span>Video Transcribe</span>
+        <!-- Tabs navigation -->
+        <ul class="nav nav-tabs" id="transcribeTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="transcribe-tab" data-bs-toggle="tab" data-bs-target="#transcribe" type="button" role="tab" aria-controls="transcribe" aria-selected="true">Transcribe</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="ai-tab" data-bs-toggle="tab" data-bs-target="#ai" type="button" role="tab" aria-controls="ai" aria-selected="false">AG AI Assistant</button>
+            </li>
+        </ul>
+        <!-- Tabs content -->
+        <div class="tab-content" id="transcribeTabsContent">
+            <div class="tab-pane fade show active" id="transcribe" role="tabpanel" aria-labelledby="transcribe-tab">
+            <div id="Video-Transcribe">
+                Loading transcript...
+            </div>
+            </div>
+            <div class="tab-pane fade" id="ai" onclick='addAIGenratedQNA()' role="tabpanel" aria-labelledby="ai-tab">
+            <div id="AI-Assistant">
+                    <!-- Chat display area (hidden initially) -->
+                    <div class="chat-container" id="chat-display">
+                        <!-- Question and answer will be inserted here -->
+                    </div>
+                    <div class="ask-ai-pre-qna">
+                            <button class="ask-ai-pre-qna-btn" id="predefined-question">How can a force at an angle be broken down?</button>
+                        </div>
+                    <!-- Input area -->
+                    <div class="ask-ai-container simple">
+                        
+                        <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
+                        <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI" disabled />
+                        &nbsp;&nbsp;
+                        <button id="ask-ai-btn" disabled><i class="fa-solid fa-hand"></i></button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="Video-Transcribe">
-          Loading transcript...
+        <div id="Video-Transcribe-footer" class="mt-3 text-muted text-center">
+            <span>© AhaGuru | POC – Developed by Team Analytics :)</span>
         </div>
-        <div id="Video-Transcribe-footer">
-          <span>© AhaGuru | POC – Developed by Team Analytics :)</span>
         </div>
-      </div>
     </div>
   </div>
 
