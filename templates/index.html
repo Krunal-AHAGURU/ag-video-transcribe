@@ -1,56 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AhaGuru | POC – Developed by Team Analytics</title>
-    
-    <!-- Include Video.js CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.10.2/video-js.css" rel="stylesheet">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AhaGuru | POC – Developed by Team Analytics</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- Video.js CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.10.2/video-js.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="/static/css/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-                <div class="col-md-8">
-                    <div class="video-container">
-                        <video id="my-video" class="video-js vjs-default-skin" controls preload="auto">
-                            <source src="/static/videos/BS1064NEET26MAY18V1-en.mp4" type="video/mp4">
-                            <track id="track-en" src="/static/subtitles/ahaguru-Transcription-sample-001_hindi.vtt" kind="subtitles" srclang="en" label="English" default>
-                            Your browser does not support the video tag.
-                        </video>
-                        <div id="cc-div" class="mt-2">No captions selected</div>
-                    </div>
-                    <br>
-                    <div class="ask-ai-container simple" style="width:700px !important">
-                        <i class="fa-solid fa-chalkboard-user"></i> &nbsp; 
-                        <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI">&nbsp;&nbsp;
-                        <button id='ask-ai-btn'><i class="fa-solid fa-hand"></i></button>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div id="Video-Transcribe-title">
-                        <span>video Transcribe</span>
-                    </div>
-                    <div id="Video-Transcribe">
-                        Loading transcript...
-                    </div>
-                    <div id="Video-Transcribe-footer">
-                        <span>© AhaGuru | POC – Developed by Team Analytics :) </span>
-                    </div>
-                </div>
+  <div class="container">
+    <div class="row">
+      <!-- Video player and CC -->
+      <div class="col-md-8">
+        <div class="video-container">
+          <video id="my-video" class="video-js vjs-default-skin" controls preload="auto">
+            <source src="/static/videos/BS1064NEET26MAY18V1-en.mp4" type="video/mp4" />
+            
+            <track id="track-en" src="/static/subtitles/ahaguru-Transcription-sample-001_en.vtt" kind="subtitles" srclang="en" label="English" default>
+            <track id="track-hi" src="/static/subtitles/ahaguru-Transcription-sample-001_hindi.vtt" kind="subtitles" srclang="hi" label="Hindi">
+            <track id="track-ta" src="/static/subtitles/ahaguru-Transcription-sample-001_tamil.vtt" kind="subtitles" srclang="ta" label="Tamil">
+            
+            Your browser does not support the video tag.
+          </video>
+
+          <div id="cc-div" class="mt-2">No captions selected</div>
         </div>
+        <br />
+        <div class="ask-ai-container simple" style="width:700px !important">
+          <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
+          <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI" />
+          &nbsp;&nbsp;
+          <button id='ask-ai-btn'><i class="fa-solid fa-hand"></i></button>
+        </div>
+      </div>
+
+      <!-- Transcript section -->
+      <div class="col-md-4">
+        <div id="Video-Transcribe-title">
+          <span>Video Transcribe</span>
+        </div>
+        <div id="Video-Transcribe">
+          Loading transcript...
+        </div>
+        <div id="Video-Transcribe-footer">
+          <span>© AhaGuru | POC – Developed by Team Analytics :)</span>
+        </div>
+      </div>
     </div>
-    <!-- Include Video.js and Google Translate API (for language handling) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.10.2/video.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </div>
 
-    <script src="/static/js/script.js"></script>
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.10.2/video.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
+  <script src="/static/js/script.js"></script>
 </body>
 </html>
