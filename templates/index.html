@@ -13,6 +13,25 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
   <link rel="stylesheet" href="/static/css/style.css">
+  
+  <style>
+    .nav-tabs .nav-link {
+      color: #495057;
+      font-weight: 500;
+    }
+    .nav-tabs .nav-link.active {
+      color: #0d6efd;
+      background-color: #fff;
+      border-color: #dee2e6 #dee2e6 #fff;
+    }
+    .tab-content {
+      border: 1px solid #dee2e6;
+      border-top: none;
+      padding: 1rem;
+      background: white;
+      border-radius: 0 0 0.25rem 0.25rem;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -33,26 +52,120 @@
           <div id="cc-div" class="mt-2">No captions selected</div>
         </div>
         <br />
-        <div class="ask-ai-container simple" style="width:700px !important">
-          <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
-          <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI" />
-          &nbsp;&nbsp;
-          <button id='ask-ai-btn'><i class="fa-solid fa-hand"></i></button>
+        <div class='video-tab-container'>
+          <!-- Video Tabs Navigation -->
+          <ul class="nav nav-tabs" id="videoTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" type="button" role="tab" aria-controls="video" aria-selected="true">Video</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab" aria-controls="summary" aria-selected="false">Summary</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="qna-tab" data-bs-toggle="tab" data-bs-target="#qna" type="button" role="tab" aria-controls="qna" aria-selected="false">Q&A</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false">Review</button>
+            </li>
+          </ul>
+          
+          <!-- Video Tabs Content -->
+          <div class="tab-content" id="videoTabsContent">
+            <div class="tab-pane fade show active" id="video" role="tabpanel" aria-labelledby="video-tab">
+              <p>Video content goes here. This is the main video tab.</p>
+            </div>
+            <div class="tab-pane fade" id="summary" role="tabpanel" aria-labelledby="summary-tab">
+              <p>Summary of the video content will appear here.</p>
+              <ul>
+                <li>Key point 1</li>
+                <li>Key point 2</li>
+                <li>Key point 3</li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="qna" role="tabpanel" aria-labelledby="qna-tab">
+              <div class="mb-3">
+                <h5>Questions & Answers</h5>
+                <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action">Question 1 about this video</a>
+                  <a href="#" class="list-group-item list-group-item-action">Question 2 about this topic</a>
+                  <a href="#" class="list-group-item list-group-item-action">Question 3 from a student</a>
+                </div>
+              </div>
+              <button class="btn btn-primary">Ask a Question</button>
+            </div>
+            <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+              <div class="mb-3">
+                <h5>Student Reviews</h5>
+                <div class="card mb-2">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="card-title">John Doe</h6>
+                      <div>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="far fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <p class="card-text">Great explanation of the concepts!</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="card-title">Jane Smith</h6>
+                      <div>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                      </div>
+                    </div>
+                    <p class="card-text">Very helpful for my exam preparation.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary">Write a Review</button>
+            </div>
+          </div>
         </div>
       </div>
 
       <!-- Transcript section -->
       <div class="col-md-4">
-        <div id="Video-Transcribe-title">
-          <span>Video Transcribe</span>
+        <!-- Tabs navigation -->
+        <ul class="nav nav-tabs" id="transcribeTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="transcribe-tab" data-bs-toggle="tab" data-bs-target="#transcribe" type="button" role="tab" aria-controls="transcribe" aria-selected="true">Transcribe</button>
+            </li>
+            <li class="nav-item" role="presentation">
+            <button class="nav-link" id="ai-tab" data-bs-toggle="tab" data-bs-target="#ai" type="button" role="tab" aria-controls="ai" aria-selected="false">AG AI Assistant</button>
+            </li>
+        </ul>
+        <!-- Tabs content -->
+        <div class="tab-content" id="transcribeTabsContent">
+            <div class="tab-pane fade show active" id="transcribe" role="tabpanel" aria-labelledby="transcribe-tab">
+            <div id="Video-Transcribe">
+                Loading transcript...
+            </div>
+            </div>
+            <div class="tab-pane fade" id="ai" role="tabpanel" aria-labelledby="ai-tab">
+            <div id="AI-Assistant">
+                <div class="ask-ai-container simple" style="">
+                    <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
+                    <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI" disabled />
+                    &nbsp;&nbsp;
+                    <button id='ask-ai-btn' disabled ><i class="fa-solid fa-hand"></i></button>
+                </div>
+            </div>
+            </div>
         </div>
-        <div id="Video-Transcribe">
-          Loading transcript...
+        <div id="Video-Transcribe-footer" class="mt-3 text-muted text-center">
+            <span>© AhaGuru | POC – Developed by Team Analytics :)</span>
         </div>
-        <div id="Video-Transcribe-footer">
-          <span>© AhaGuru | POC – Developed by Team Analytics :)</span>
         </div>
-      </div>
     </div>
   </div>
 

@@ -13,12 +13,12 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 700px;
+    /* width: 700px; */
     text-align: center;
 }
 
 video {
-    width: 100%;
+    /* width: 100%; */
     border-radius: 8px;
 }
 
@@ -44,8 +44,8 @@ video {
 }
 
 .my-video-dimensions {
-    width: 660px;
-    height: 400px;
+    width: 755px;
+    height: 460px;
     border-radius: 50px;
     background:white
 }
@@ -54,9 +54,8 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 660px;
-    margin-left: -5px;
-    border-radius: 20px;
+    width: 855px;
+    margin-left: -20px;
 }
 
 #Video-Transcribe {
@@ -71,13 +70,24 @@ video {
 }
 
 
-#Video-Transcribe-title{
+#transcribeTabs{
     background: #0000ff;
     color: white;
     font-size: larger;
     font-weight: 600;
     border-radius: 12px 12px 0px 0px;
     padding: 10px;
+    padding-bottom: 0px;
+}
+
+#transcribeTabs button {
+    color: white;
+    font-weight: 500;
+}
+
+#transcribeTabs button.active {
+    color: #0000ff; /* Blue color for the active tab */
+    font-weight: 500;
 }
 
 #Video-Transcribe-footer{
@@ -87,6 +97,12 @@ video {
     font-weight: 600;
     border-radius: 0px 0px 12px 12px;
     padding: 10px;
+    margin-top: -10px !important;
+}
+
+#Video-Transcribe-footer span{
+    color: white;
+    
 }
 
 .ask-ai-container.simple {
@@ -125,3 +141,38 @@ video {
     font-size: 24px;
     padding-right: 5px;
 }   
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+
+
+
+
