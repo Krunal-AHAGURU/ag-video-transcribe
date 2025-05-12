@@ -191,8 +191,6 @@ async function loadVideoDataSummeryzation() {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const videoData = await response.json();
-    console.log(videoData);
-
     renderVideoContent(videoData);
   } catch (error) {
     console.error('Error loading the summary JSON:', error);
