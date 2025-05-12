@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             container.innerHTML = '';
             // const segments = data.audio_segments;
-            const segments = data.results.audio_segments;
+            const segments = data.audio_segments;
 
             segments.forEach((segment, index) => {
                 const span = document.createElement('span');
