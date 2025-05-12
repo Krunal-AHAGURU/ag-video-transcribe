@@ -110,3 +110,122 @@
     return `${minutes}:${secs.toString().padStart(2, '0')}`;
   }
 
+
+
+function addAIGenratedQNA(){
+
+}
+
+    // Q&A functionality
+const qnaContainer = document.getElementById('ai-genrate-qna');
+// const qnaTabButton = document.getElementById('qna-tab-button');
+const qnaTabContent = document.getElementById('qna-tab-content');
+const videoElement = document.getElementById('my-video'); // Get video element
+
+const jsonFilePath = '/static/subtitles/ahaguru-Transcription-sample-001_en_qns.json';
+
+// Function to fetch and display the Q&A
+async function loadAndDisplayQnA() {
+    try {
+        const response = await fetch(jsonFilePath);
+        const data = await response.json();
+        console.log(data); // Log the data for debugging
+
+        // Clear any existing content
+        qnaTabContent.innerHTML = '';
+
+        data.questions.forEach(item => {
+            const questionDiv = document.createElement('div');
+            questionDiv.classList.add('question-item');
+
+            const questionText = document.createElement('p');
+            questionText.textContent = item.question;
+            questionText.classList.add('question-text');
+            questionDiv.appendChild(questionText);
+
+            const answerDiv = document.createElement('div');
+            answerDiv.classList.add('answer');
+            answerDiv.textContent = item.answer;
+            answerDiv.style.display = 'none'; // Initially hide the answer
+            questionDiv.appendChild(answerDiv);
+
+            const timestampLink = document.createElement('a');
+            timestampLink.href = '#'; // Placeholder, will be updated
+            timestampLink.textContent = `[${item.timestamp}]`;
+            timestampLink.classList.add('timestamp-link');
+            questionDiv.appendChild(timestampLink);
+
+            qnaTabContent.appendChild(questionDiv);
+
+            // Add event listener to toggle answer visibility
+            questionText.addEventListener('click', () => {
+                answerDiv.style.display = answerDiv.style.display === 'none' ? 'block' : 'none';
+            });
+            
+             // Add event listener to timestamp link to seek video
+            timestampLink.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default link behavior
+                const [start, end] = item.timestamp.split(" - ");
+                const [startMinutes, startSeconds] = start.split(":").map(parseFloat);
+                const startTime = startMinutes * 60 + startSeconds;
+                videoElement.currentTime = startTime;
+            });
+        });
+
+    } catch (error) {
+        console.error('Error loading or parsing JSON:', error);
+        qnaTabContent.textContent = 'Failed to load Q&A.';
+    }
+}
+
+loadAndDisplayQnA()
+
+
+
+
+async function loadVideoDataSummeryzation() {
+  try {
+    let summeryjsonFilePath = '/static/subtitles/ahaguru-video-summary_en.json';
+    const response = await fetch(summeryjsonFilePath);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const videoData = await response.json();
+    console.log(videoData);
+
+    renderVideoContent(videoData);
+  } catch (error) {
+    console.error('Error loading the summary JSON:', error);
+  }
+}
+
+loadVideoDataSummeryzation()
+
+    function renderVideoContent(data) {
+      const container = document.getElementById('ai-summary');
+      let html = `
+        <h1>${data.title}</h1>
+        <p>${data.main_summary}</p>
+        <div class="accordion" id="accordionSections">
+      `;
+
+      data.sections.forEach((section, index) => {
+        html += `
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading${index}">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}">
+                ${section.subtitle} <span class="ms-auto text-muted small">${section.start_time}</span>
+              </button>
+            </h2>
+            <div id="collapse${index}" class="accordion-collapse collapse" data-bs-parent="#accordionSections">
+              <div class="accordion-body">${section.summary}</div>
+            </div>
+          </div>
+        `;
+      });
+
+      html += `</div>`;
+      container.innerHTML = html;
+    }
+
+    

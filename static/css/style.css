@@ -176,3 +176,54 @@ video {
 
 
 
+
+
+
+#qna-tab-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+#qna-tab-content {
+    padding: 10px;
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+}
+
+.question-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.question-text {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.answer {
+    margin-top: 5px;
+}
+
+.timestamp-link {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #007bff;
+}
+
+#video-container {
+    position: relative; /* Needed for absolute positioning of the Q&A */
+    width: 80%;       /* Or whatever width you want */
+    margin: 0 auto;
+}
+
+#my-video {
+    width: 100%;
+}

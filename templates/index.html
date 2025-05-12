@@ -59,7 +59,7 @@
               <button class="nav-link active" id="video-tab" data-bs-toggle="tab" data-bs-target="#video" type="button" role="tab" aria-controls="video" aria-selected="true">Video</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab" aria-controls="summary" aria-selected="false">Summary</button>
+              <button class="nav-link" id="summary-tab" data-bs-toggle="tab" data-bs-target="#ai-summary" type="button" role="tab" aria-controls="summary" aria-selected="false">Summary</button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="qna-tab" data-bs-toggle="tab" data-bs-target="#qna" type="button" role="tab" aria-controls="qna" aria-selected="false">Q&A</button>
@@ -74,13 +74,8 @@
             <div class="tab-pane fade show active" id="video" role="tabpanel" aria-labelledby="video-tab">
               <p>Video content goes here. This is the main video tab.</p>
             </div>
-            <div class="tab-pane fade" id="summary" role="tabpanel" aria-labelledby="summary-tab">
-              <p>Summary of the video content will appear here.</p>
-              <ul>
-                <li>Key point 1</li>
-                <li>Key point 2</li>
-                <li>Key point 3</li>
-              </ul>
+            <div class="tab-pane fade" id="ai-summary" role="tabpanel" aria-labelledby="summary-tab">
+              
             </div>
             <div class="tab-pane fade" id="qna" role="tabpanel" aria-labelledby="qna-tab">
               <div class="mb-3">
@@ -151,8 +146,13 @@
                 Loading transcript...
             </div>
             </div>
-            <div class="tab-pane fade" id="ai" role="tabpanel" aria-labelledby="ai-tab">
+            <div class="tab-pane fade" id="ai" onclick='addAIGenratedQNA()' role="tabpanel" aria-labelledby="ai-tab">
             <div id="AI-Assistant">
+                <div id ="ai-genrate-qna">
+                    <div id="qna-tab-content">
+                        <span></span>
+                    </div>
+                </div>
                 <div class="ask-ai-container simple" style="">
                     <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
                     <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI" disabled />
