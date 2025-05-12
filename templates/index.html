@@ -13,39 +13,20 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
   <link rel="stylesheet" href="/static/css/style.css">
-  
-  <style>
-    .nav-tabs .nav-link {
-      color: #495057;
-      font-weight: 500;
-    }
-    .nav-tabs .nav-link.active {
-      color: #0d6efd;
-      background-color: #fff;
-      border-color: #dee2e6 #dee2e6 #fff;
-    }
-    .tab-content {
-      border: 1px solid #dee2e6;
-      border-top: none;
-      padding: 1rem;
-      background: white;
-      border-radius: 0 0 0.25rem 0.25rem;
-    }
-  </style>
+
 </head>
 <body>
-  <div class="container">
+
+  <div class="container" style="margin-top: 400px; margin-bottom:300px; ">
     <div class="row">
       <!-- Video player and CC -->
       <div class="col-md-8">
         <div class="video-container">
           <video id="my-video" class="video-js vjs-default-skin" controls preload="auto">
             <source src="/static/videos/BS1064NEET26MAY18V1-en.mp4" type="video/mp4" />
-            
             <track id="track-en" src="/static/subtitles/ahaguru-Transcription-sample-001_en.vtt" kind="subtitles" srclang="en" label="English" default>
             <track id="track-hi" src="/static/subtitles/ahaguru-Transcription-sample-001_hindi.vtt" kind="subtitles" srclang="hi" label="Hindi">
             <track id="track-ta" src="/static/subtitles/ahaguru-Transcription-sample-001_tamil.vtt" kind="subtitles" srclang="ta" label="Tamil">
-            
             Your browser does not support the video tag.
           </video>
 
@@ -77,18 +58,12 @@
                 <p>This may include details such as video weightage, related or linked videos, topic and subtopic tags, relevant hyperlinks, and other useful information.</p>
             </div>
             <div class="tab-pane fade" id="ai-summary" role="tabpanel" aria-labelledby="summary-tab">
-              
             </div>
             <div class="tab-pane fade" id="qna" role="tabpanel" aria-labelledby="qna-tab">
-              <div class="mb-3">
-                <h5>Questions & Answers</h5>
-                <div class="list-group">
-                  <a href="#" class="list-group-item list-group-item-action">Question 1 about this video</a>
-                  <a href="#" class="list-group-item list-group-item-action">Question 2 about this topic</a>
-                  <a href="#" class="list-group-item list-group-item-action">Question 3 from a student</a>
+                <div class="mb-3" id="qna-container">
+
                 </div>
-              </div>
-              <button class="btn btn-primary">Ask a Question</button>
+              <button class="btn btn-primary" disabled>Ask a Question</button>
             </div>
             <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
               <div class="mb-3">
@@ -96,7 +71,7 @@
                 <div class="card mb-2">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
-                      <h6 class="card-title">John Doe</h6>
+                      <h6 class="card-title">Krunal Rana</h6>
                       <div>
                         <i class="fas fa-star text-warning"></i>
                         <i class="fas fa-star text-warning"></i>
@@ -111,7 +86,7 @@
                 <div class="card">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
-                      <h6 class="card-title">Jane Smith</h6>
+                      <h6 class="card-title">Team Analytics</h6>
                       <div>
                         <i class="fas fa-star text-warning"></i>
                         <i class="fas fa-star text-warning"></i>
@@ -120,11 +95,11 @@
                         <i class="fas fa-star text-warning"></i>
                       </div>
                     </div>
-                    <p class="card-text">Very helpful for my exam preparation.</p>
+                    <p class="card-text"></p>
                   </div>
                 </div>
               </div>
-              <button class="btn btn-primary">Write a Review</button>
+              <button class="btn btn-primary" disabled>Write a Review</button>
             </div>
           </div>
         </div>
@@ -150,18 +125,22 @@
             </div>
             <div class="tab-pane fade" id="ai" onclick='addAIGenratedQNA()' role="tabpanel" aria-labelledby="ai-tab">
             <div id="AI-Assistant">
-                <div id ="ai-genrate-qna">
-                    <div id="qna-tab-content">
-                        <span></span>
+                    <!-- Chat display area (hidden initially) -->
+                    <div class="chat-container" id="chat-display">
+                        <!-- Question and answer will be inserted here -->
+                    </div>
+                    <div class="ask-ai-pre-qna">
+                            <button class="ask-ai-pre-qna-btn" id="predefined-question">How can a force at an angle be broken down?</button>
+                        </div>
+                    <!-- Input area -->
+                    <div class="ask-ai-container simple">
+                        
+                        <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
+                        <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI" disabled />
+                        &nbsp;&nbsp;
+                        <button id="ask-ai-btn" disabled><i class="fa-solid fa-hand"></i></button>
                     </div>
                 </div>
-                <div class="ask-ai-container simple" style="">
-                    <i class="fa-solid fa-chalkboard-user"></i>&nbsp;
-                    <input type="text" id="ask-ahaguru-ai-input" class="form-control" placeholder=" &nbsp; Ask AhaGuru AI" disabled />
-                    &nbsp;&nbsp;
-                    <button id='ask-ai-btn' disabled ><i class="fa-solid fa-hand"></i></button>
-                </div>
-            </div>
             </div>
         </div>
         <div id="Video-Transcribe-footer" class="mt-3 text-muted text-center">

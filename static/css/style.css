@@ -172,13 +172,6 @@ video {
   padding : 5px 15px;
 }
 
-
-
-
-
-
-
-
 #qna-tab-button {
     background-color: #f0f0f0;
     border: none;
@@ -226,4 +219,80 @@ video {
 
 #my-video {
     width: 100%;
+}
+
+.qna-timeStemp{
+    font-size: 12px;
+}
+
+.collapse{
+    background-color: #f4f4f4;
+}
+
+ .nav-tabs .nav-link {
+      color: #495057;
+      font-weight: 500;
+    }
+    .nav-tabs .nav-link.active {
+      color: #0d6efd;
+      background-color: #fff;
+      border-color: #dee2e6 #dee2e6 #fff;
+    }
+    .tab-content {
+      border: 1px solid #dee2e6;
+      border-top: none;
+      padding: 1rem;
+      background: white;
+      border-radius: 0 0 0.25rem 0.25rem;
+    }
+
+
+ /* Send button styling */
+        
+        /* Chat bubble styling */
+        .chat-container {
+            margin-top: 20px;
+            display: none; /* Hidden by default */
+        }
+        
+        .question-bubble {
+            background-color: #4a6baf;
+            color: white;
+            padding: 12px 16px;
+            border-radius: 18px 18px 0 18px;
+            margin-bottom: 8px;
+            max-width: 80%;
+            float: right;
+            clear: both;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .answer-bubble {
+            background-color: #e9ecef;
+            color: #333;
+            padding: 12px 16px;
+            border-radius: 18px 18px 18px 0;
+            margin-bottom: 20px;
+            max-width: 80%;
+            float: left;
+            clear: both;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Icon styling */
+        .fa-chalkboard-user {
+            color: #4a6baf;
+            font-size: 20px;
+        }
+
+.ask-ai-pre-qna-btn{
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0px;
+    border-radius: 5px;
+    color: white;
+    background: #0000ff;
+    border: 0px;
+    padding-right: 15px;
+    cursor: pointer;
 }
