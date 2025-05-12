@@ -4,24 +4,52 @@
   let lastHighlightedIndex = -1;
 
   document.addEventListener("DOMContentLoaded", function () {
+    player.ready(() => {
+      // Listen for subtitle track change
+      const textTracks = player.textTracks();
+
+      for (let i = 0; i < textTracks.length; i++) {
+        textTracks[i].addEventListener('change', () => {
+          if (textTracks[i].mode === 'showing') {
+            loadTranscriptByLang(textTracks[i].language);
+            updateCCDisplay(textTracks[i]);
+          }
+        });
+
+        // Set default transcript on first load
+        if (textTracks[i].mode === 'showing') {
+          loadTranscriptByLang(textTracks[i].language);
+          updateCCDisplay(textTracks[i]);
+        }
+      }
+    });
+  });
+
+  function loadTranscriptByLang(langCode) {
+    const transcriptMap = {
+      en: 'ahaguru-Transcription-sample-001_en.json',
+      hi: 'ahaguru-Transcription-sample-001_hindi.json',
+      ta: 'ahaguru-Transcription-sample-001_tamil.json',
+    };
+
+    const path = `/static/subtitles/${transcriptMap[langCode]}`;
     const container = document.getElementById('Video-Transcribe');
+    container.innerHTML = '';
+    segmentSpans = [];
+    lastHighlightedIndex = -1;
 
-    // Load English transcript JSON (default)
-    fetch('/static/subtitles/ahaguru-Transcription-sample-001_en.json')
-      .then(response => response.json())
-      .then(data => {
-        container.innerHTML = '';
-        segmentSpans = [];
-
+    fetch(path)
+      .then((res) => res.json())
+      .then((data) => {
         const segments = data.audio_segments;
 
         segments.forEach((segment, index) => {
           const span = document.createElement('span');
-          span.textContent = `${formatTime(parseFloat(segment.start_time))} - ${segment.transcript}`;
+          span.textContent = `${formatTime(segment.start_time)} - ${segment.transcript}`;
           span.style.display = 'block';
           span.style.cursor = 'pointer';
-          span.dataset.start = parseFloat(segment.start_time);
-          span.dataset.end = parseFloat(segment.end_time);
+          span.dataset.start = segment.start_time;
+          span.dataset.end = segment.end_time;
           span.dataset.index = index;
 
           span.onclick = () => {
@@ -33,7 +61,6 @@
           segmentSpans.push(span);
         });
 
-        // Add timeupdate listener only once
         player.off('timeupdate');
         player.on('timeupdate', () => {
           const currentTime = player.currentTime();
@@ -63,38 +90,23 @@
           }
         });
       })
-      .catch(error => {
-        container.textContent = 'Failed to load transcript';
-        console.error('Error loading transcript:', error);
+      .catch((err) => {
+        container.textContent = 'Transcript failed to load.';
+        console.error(err);
       });
+  }
 
-    // Load CC from video track
-    player.on('loadedmetadata', function () {
-      const tracks = player.textTracks();
+  function updateCCDisplay(track) {
+    track.oncuechange = () => {
+      const cue = track.activeCues[0];
+      const ccDiv = document.getElementById('cc-div');
+      ccDiv.innerText = cue ? cue.text : 'No captions selected';
+    };
+  }
 
-      for (let i = 0; i < tracks.length; i++) {
-        // Enable only English by default
-        if (tracks[i].language === 'en') {
-          tracks[i].mode = 'showing';
+  function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${minutes}:${secs.toString().padStart(2, '0')}`;
+  }
 
-          tracks[i].oncuechange = function () {
-            const cue = tracks[i].activeCues[0];
-            const ccDiv = document.getElementById('cc-div');
-            if (cue && ccDiv) {
-              ccDiv.innerText = cue.text;
-            } else if (ccDiv) {
-              ccDiv.innerText = '';
-            }
-          };
-        } else {
-          tracks[i].mode = 'disabled';
-        }
-      }
-    });
-
-    function formatTime(seconds) {
-      const minutes = Math.floor(seconds / 60);
-      const secs = Math.floor(seconds % 60);
-      return `${minutes}:${secs.toString().padStart(2, '0')}`;
-    }
-  });
