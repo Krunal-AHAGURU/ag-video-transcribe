@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const player = videojs('my-video');
     let segmentSpans = [];
 
-    fetch('/static/subtitles/ahaguru-Transcription-sample-001_en.json')
+    fetch('/static/subtitles/ahaguru-Transcription-sample-001_hindi.json')
         .then(response => response.json())
         .then(data => {
             container.innerHTML = '';
