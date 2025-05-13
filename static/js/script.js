@@ -100,7 +100,7 @@
     track.oncuechange = () => {
       const cue = track.activeCues[0];
       const ccDiv = document.getElementById('cc-div');
-      ccDiv.innerText = cue ? cue.text : 'No captions selected';
+      ccDiv.innerText = cue ? cue.text : '...';
     };
   }
 
