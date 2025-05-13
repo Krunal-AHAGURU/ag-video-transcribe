@@ -296,3 +296,11 @@ video {
     padding-right: 15px;
     cursor: pointer;
 }
+
+.video-tag {
+    padding: 5px;
+    margin: 5px;
+    background: #e9e8ed !important;
+    color : #303437 !important;
+
+}
