@@ -195,7 +195,7 @@ function renderVideoContent(data) {
 //                 <div class="accordion-body">
 //                     ${section.answer}
 //                     <br>
-//                     <span class="qna-timeStemp">Time Stemp : ${section.timestamp} &nbsp;</span>
+//                     <span class="qna-timeStemp">Time Stamp : ${section.timestamp} &nbsp;</span>
 //                 </div>
 //             </div>
 //           </div>
