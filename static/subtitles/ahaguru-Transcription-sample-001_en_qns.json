@@ -2,69 +2,87 @@
   "questions": [
     {
       "id": 1,
-      "question": "What is the standard approach to deal with forces acting at an angle?",
-      "answer": "The standard approach is to convert the angled force into a combination of horizontal and vertical force components.",
-      "timestamp": "00:00:31.409 - 00:00:37.540"
+      "question": "How do you resolve a force acting at an angle?",
+      "answer": "Resolve the force into its horizontal and vertical components.",
+      "timestamp": "00:00:17 - 00:00:46"
     },
     {
       "id": 2,
-      "question": "How can a force at an angle be broken down?",
-      "answer": "A force at an angle can always be broken down into a horizontal component and a vertical component.",
-      "timestamp": "00:00:44.169 - 00:00:50.569"
+      "question": "What are the standard directions used to represent vector components?",
+      "answer": "ICAP (horizontal) and JAP (vertical).",
+      "timestamp": "00:00:51 - 00:01:00"
     },
     {
       "id": 3,
-      "question": "What does 'i-hat' represent in the context of forces?",
-      "answer": "'i-hat' (often written as $\\hat{i}$) represents the unit vector in the horizontal direction.",
-      "timestamp": "00:00:51.240 - 00:00:53.330"
+      "question": "If a force has a magnitude of 3 units in the ICAP direction, how would you represent it?",
+      "answer": "3 ICAP.",
+      "timestamp": "00:01:03 - 00:01:15"
     },
     {
       "id": 4,
-      "question": "What does 'j-hat' represent in the context of forces?",
-      "answer": "'j-hat' (often written as $\\hat{j}$) represents the unit vector in the vertical direction.",
-      "timestamp": "00:00:57.000 - 00:00:58.260"
+      "question": "How do you add forces that are not in the same direction?",
+      "answer": "Break them down into their horizontal and vertical components, then add the corresponding components.",
+      "timestamp": "00:01:16 - 00:01:54"
     },
     {
       "id": 5,
-      "question": "If a force F is at an angle θ with the horizontal, what are its horizontal and vertical components?",
-      "answer": "The horizontal component (Fx) is given by F cos(θ), and the vertical component (Fy) is given by F sin(θ).",
-      "timestamp": "00:01:00.440 - 00:01:08.010"
+      "question": "If you have a force with horizontal component 3 and vertical component 4, what is the magnitude of the resultant force?",
+      "answer": "5 units.",
+      "timestamp": "00:01:55 - 00:02:20"
     },
     {
       "id": 6,
-      "question": "How do you represent a force vector in terms of i and j components?",
-      "answer": "A force vector can be represented as $\\vec{F} = F_x \\hat{i} + F_y \\hat{j}$, where $F_x$ is the horizontal component and $F_y$ is the vertical component.",
-      "timestamp": "00:01:08.010 - 00:01:12.440"
+      "question": "How do you represent a force with components 3 and 4 in the ICAP and JAP directions, respectively?",
+      "answer": "3 ICAP + 4 JAP.",
+      "timestamp": "00:02:21 - 00:02:44"
     },
     {
       "id": 7,
-      "question": "What is the first step when dealing with multiple forces acting at different angles?",
-      "answer": "The first step is to break down each individual force into its horizontal and vertical components.",
-      "timestamp": "00:02:11.140 - 00:02:16.180"
+      "question": "How do you find the magnitude of a vector force?",
+      "answer": "Use the Pythagorean theorem (square root of the sum of the squares of the components).",
+      "timestamp": "00:02:45 - 00:03:06"
     },
     {
       "id": 8,
-      "question": "After resolving all forces into horizontal and vertical components, how do you find the net force in each direction?",
-      "answer": "You find the net horizontal force by adding all the horizontal components together, and the net vertical force by adding all the vertical components together.",
-      "timestamp": "00:02:16.400 - 00:02:22.030"
+      "question": "How do you represent a force in the ICAP and JAP directions if it's negative?",
+      "answer": "Use a negative sign in front of the component.",
+      "timestamp": "00:03:12 - 00:03:36"
     },
     {
       "id": 9,
-      "question": "How do you find the magnitude of the resultant force from its net horizontal and vertical components?",
-      "answer": "The magnitude of the resultant force (R) is found using the Pythagorean theorem: $R = qrt{R_x^2 + R_y^2}$, where $R_x$ is the net horizontal force and $R_y$ is the net vertical force.",
-      "timestamp": "00:02:23.310 - 00:02:28.030"
+      "question": "How do you add forces represented in the ICAP and JAP format?",
+      "answer": "Add the ICAP components together and the JAP components together.",
+      "timestamp": "00:03:37 - 00:04:20"
     },
     {
       "id": 10,
-      "question": "How do you find the direction (angle) of the resultant force?",
-      "answer": "The direction (angle θ) of the resultant force can be found using the arctangent function: $θ = \\arctan(\\frac{R_y}{R_x})$, where $R_y$ is the net vertical force and $R_x$ is the net horizontal force.",
-      "timestamp": "00:02:28.220 - 00:02:32.730"
+      "question": "How do you find the resultant force when adding vectors?",
+      "answer": "Add the corresponding components of the vectors.",
+      "timestamp": "00:04:21 - 00:04:42"
     },
     {
       "id": 11,
-      "question": "What is the significance of considering gravity and the floor when dealing with forces at an angle on Earth's surface?",
-      "answer": "On Earth's surface, gravity acts vertically downwards, and the floor can exert a normal force perpendicular to the surface, both of which need to be considered when analyzing the net forces acting on an object.",
-      "timestamp": "00:27:58.439 - 00:28:24.369"
+      "question": "How do you represent a force given in magnitude and angle?",
+      "answer": "Use trigonometry (cosine and sine) to find the horizontal and vertical components.",
+      "timestamp": "00:04:43 - 00:05:01"
+    },
+    {
+      "id": 12,
+      "question": "How do you find the components of a force inclined at an angle?",
+      "answer": "Use the trigonometric functions cosine and sine to find the horizontal and vertical components.",
+      "timestamp": "00:16:05 - 00:17:26"
+    },
+    {
+      "id": 13,
+      "question": "What are the values of sine and cosine for common angles like 0, 30, 45, 60, and 90 degrees?",
+      "answer": "Memorize the values for sine and cosine for these angles.",
+      "timestamp": "00:18:15 - 00:19:30"
+    },
+    {
+      "id": 14,
+      "question": "How do you find the acceleration of an object with multiple forces acting on it?",
+      "answer": "Find the net force by adding all the forces, then divide by the mass of the object.",
+      "timestamp": "00:21:28 - 00:22:28"
     }
   ]
 }

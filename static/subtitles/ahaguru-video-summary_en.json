@@ -1,63 +1,49 @@
 {
-  "title": "Introduction to Physics: Motion and Forces",
-  "main_summary": "This educational video provides a foundational introduction to the core principles of physics. It begins by explaining motion, speed, and velocity, followed by a clear discussion of acceleration and Newton’s Laws of Motion. Through relatable examples and simple analogies, the video helps students understand how objects move and the forces acting on them. The instructor also emphasizes the difference between speed and velocity, and walks through real-life applications to make the content engaging and relevant.",
+  "title": "Vector Addition and Resolution of Forces in Physics",
+  "main_summary": "This video lesson explains how to add and resolve forces acting at an angle.  It introduces the concept of vector components (i-cap and j-cap) and demonstrates how to break down forces into horizontal and vertical components.  The lesson further illustrates how to find the resultant force and magnitude of a force when multiple forces act on an object, including examples of inclined forces and how to resolve them into their components.",
   "sections": [
     {
-      "start_time": "00:00",
-      "subtitle": "Understanding Motion",
-      "summary": "Introduces the basic idea of motion and how it's observed by comparing the position of objects over time. Relatable examples are used to build intuition."
+      "start_time": "00:00:08",
+      "end_time": "00:00:22",
+      "title": "Introduction to Vector Components",
+      "summary": "The video begins by acknowledging that forces often act at angles, unlike previous examples.  It introduces the need to resolve these angled forces into horizontal and vertical components.  The teacher sets the stage for the use of i-cap and j-cap notation to represent these components."
     },
     {
-      "start_time": "01:45",
-      "subtitle": "Reference Point and Relative Motion",
-      "summary": "Explains the importance of choosing a reference point to describe motion, and how motion is relative to the chosen reference."
+      "start_time": "00:00:22",
+      "end_time": "00:02:20",
+      "title": "Resolving Forces into Components",
+      "summary": "The video continues by demonstrating how to resolve a force into its horizontal and vertical components.  It explains the concept of i-cap and j-cap as directions, and how to represent forces using this notation.  The lesson provides examples of how to express forces as a combination of i-cap and j-cap components."
     },
     {
-      "start_time": "03:10",
-      "subtitle": "Speed: Definition and Units",
-      "summary": "Covers the concept of speed, its formula (distance/time), and standard units like meters per second and kilometers per hour."
+      "start_time": "00:02:20",
+      "end_time": "00:06:40",
+      "title": "Adding and Finding Magnitude of Forces",
+      "summary": "This section builds on the previous one by showing how to add forces represented in i-cap and j-cap form.  It emphasizes that the addition is not simple arithmetic but involves considering the components separately.  The video also explains how to find the magnitude of a resultant force using the Pythagorean theorem."
     },
     {
-      "start_time": "04:45",
-      "subtitle": "Velocity and Direction",
-      "summary": "Differentiates speed from velocity by introducing the concept of direction, with examples where two objects can have the same speed but different velocities."
+      "start_time": "00:06:40",
+      "end_time": "00:15:30",
+      "title": "Applying Vector Addition to Acceleration and Force Problems",
+      "summary": "The video moves to applying vector addition to find acceleration and unknown forces.  It demonstrates how to find the net force by adding the components of multiple forces.  It also covers scenarios where the acceleration or the force is given in a specific direction, and how to find the unknown force or acceleration."
     },
     {
-      "start_time": "06:30",
-      "subtitle": "Acceleration",
-      "summary": "Defines acceleration as the change in velocity over time and provides examples including speeding up, slowing down, and changing direction."
-    },
-    {
-      "start_time": "08:10",
-      "subtitle": "Introduction to Newton’s First Law",
-      "summary": "Introduces Newton’s First Law of Motion, also known as the law of inertia, using examples of moving buses and standing passengers."
-    },
-    {
-      "start_time": "09:45",
-      "subtitle": "Forces and Balanced vs Unbalanced Forces",
-      "summary": "Describes how forces affect motion, explaining the difference between balanced and unbalanced forces through day-to-day scenarios."
-    },
-    {
-      "start_time": "11:20",
-      "subtitle": "Conclusion: Recap and Real-World Application",
-      "summary": "Summarizes all key topics and connects them with real-world experiences to reinforce the understanding of motion and forces."
+      "start_time": "00:15:30",
+      "end_time": "00:28:20",
+      "title": "Resolving Inclined Forces and Applications",
+      "summary": "This section focuses on resolving forces that are inclined at an angle.  It explains how to find the components of such forces using trigonometric functions (sine and cosine) and angles.  The video provides examples of how to convert inclined forces into i-cap and j-cap form, and how to use this information to solve problems involving acceleration and forces on objects on the surface of the Earth."
     }
   ],
-  "conclusion": "The video wraps up with a concise recap of all key concepts — motion, speed, velocity, acceleration, and Newton’s First Law. By tying these ideas to everyday experiences, students are encouraged to observe the physics around them and build a strong foundation for further studies.",
+  "conclusion": "The video concludes by emphasizing the importance of resolving forces into their components (i-cap and j-cap) for accurate calculations of resultant forces and acceleration.  It highlights the ease of calculations when forces are expressed in this form and provides a summary of the key concepts and techniques.",
   "tags": [
-    "physics",
-    "motion",
-    "speed",
-    "velocity",
-    "acceleration",
-    "Newton's laws",
-    "inertia",
-    "forces",
-    "balanced forces",
-    "unbalanced forces",
-    "high school science",
-    "introductory physics",
-    "CBSE class 9 physics",
-    "science education"
+    "Physics",
+    "Laws of Motion",
+    "Vectors",
+    "Force",
+    "Acceleration",
+    "Components",
+    "i-cap",
+    "j-cap",
+    "Resolution",
+    "Trigonometry"
   ]
 }

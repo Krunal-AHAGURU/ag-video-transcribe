@@ -1,0 +1,13 @@
+Phrase	SoundsLike	IPA	DisplayAs
+icap	i cap		î
+jcap	j cap		ĵ
+eyecap	i cap		î
+jaycap	j cap		ĵ
+iap	i a p		î
+jap	j a p		ĵ
+3icap	three i cap		3î
+4jcap	four j cap		4ĵ
+fnet	ef net		F_net
+fvector	ef vector		F⃗
+costheta	cos theta		cos θ
+sintheta	sin theta		sin θ
