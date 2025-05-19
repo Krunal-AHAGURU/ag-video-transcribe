@@ -159,11 +159,55 @@ function renderVideoContent(data) {
 
 
 
+// async function loadqnaDataSummeryzation() {
+//   try {
+
+//     const jsonQnaFilePath = '/static/subtitles/ahaguru-Transcription-sample-001_en_qns.json';
+
+//     const response = await fetch(jsonQnaFilePath);
+//     if (!response.ok) {
+//       throw new Error(`HTTP error! status: ${response.status}`);
+//     }
+//     const qnaData = await response.json();
+//     renderqnaContent(qnaData);
+//   } catch (error) {
+//     console.error('Error loading the summary JSON:', error);
+//   }
+// }
+
+// loadqnaDataSummeryzation()
+
+
+// function renderqnaContent(data) {
+//     const container = document.getElementById('qna-container');
+//     let html = '';
+//     data.questions.forEach((section, index) => {
+//         html += `
+//           <div class="accordion-item">
+//            <h2 class="accordion-header" id="heading${index}">
+//             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}">
+//                 <div class="w-100 d-flex justify-content-between align-items-center">
+//                 <span>${section.question}</span>
+//                 </div>
+//             </button>
+//             </h2>
+//             <div id="collapse${index}" class="accordion-collapse collapse" data-bs-parent="#accordionSections">
+//                 <div class="accordion-body">
+//                     ${section.answer}
+//                     <br>
+//                     <span class="qna-timeStemp">Time Stemp : ${section.timestamp} &nbsp;</span>
+//                 </div>
+//             </div>
+//           </div>
+//         `;
+//       });
+//       html += `</div>`;
+//       container.innerHTML = html;
+// }
+
 async function loadqnaDataSummeryzation() {
   try {
-
     const jsonQnaFilePath = '/static/subtitles/ahaguru-Transcription-sample-001_en_qns.json';
-
     const response = await fetch(jsonQnaFilePath);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -175,35 +219,43 @@ async function loadqnaDataSummeryzation() {
   }
 }
 
-loadqnaDataSummeryzation()
-
-
 function renderqnaContent(data) {
-    const container = document.getElementById('qna-container');
-    let html = '';
-    data.questions.forEach((section, index) => {
-        html += `
-          <div class="accordion-item">
-           <h2 class="accordion-header" id="heading${index}">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}">
-                <div class="w-100 d-flex justify-content-between align-items-center">
-                <span>${section.question}</span>
-                </div>
-            </button>
-            </h2>
-            <div id="collapse${index}" class="accordion-collapse collapse" data-bs-parent="#accordionSections">
-                <div class="accordion-body">
-                    ${section.answer}
-                    <br>
-                    <span class="qna-timeStemp">Time Stemp : ${section.timestamp} &nbsp;</span>
-                </div>
+  const container = document.getElementById('qna-container');
+  let html = '';
+  data.questions.forEach((section, index) => {
+    html += `
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading${index}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}">
+            <div class="w-100 d-flex justify-content-between align-items-center">
+              <span>${section.question}</span>
             </div>
+          </button>
+        </h2>
+        <div id="collapse${index}" class="accordion-collapse collapse" data-bs-parent="#accordionSections">
+          <div class="accordion-body">
+            ${section.answer}
+            <br>
+            <span class="qna-timeStemp">Time Stemp : ${section.timestamp} &nbsp;</span>
           </div>
-        `;
-      });
-      html += `</div>`;
-      container.innerHTML = html;
+        </div>
+      </div>
+    `;
+  });
+  container.innerHTML = html;
+
+  // Re-render math expressions using KaTeX
+  if (typeof renderMathInElement === 'function') {
+    renderMathInElement(container, {
+      delimiters: [
+        { left: '$', right: '$', display: false },
+        { left: '\\(', right: '\\)', display: false }
+      ]
+    });
+  }
 }
+
+loadqnaDataSummeryzation();
 
 
  document.addEventListener('DOMContentLoaded', function() {
