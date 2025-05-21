@@ -1,50 +1,32 @@
 {
-  "title": "Vector Addition and Resolution of Forces in Physics",
-  "main_summary": "This video lesson explains how to add and resolve forces acting on objects at angles.  It introduces the concept of vector components using the ICAP and JCAP directions.  The lesson demonstrates how to break down inclined forces into horizontal and vertical components, and then add these components to find the resultant force.  It also covers how to find the magnitude and direction of the resultant force using vector addition and the Pythagorean theorem.",
+  "title": "Understanding Force Resolution and Vector Addition in Physics",
+  "main_summary": "This lecture explains how to handle forces acting at angles by resolving them into horizontal and vertical components using vector notation (i and j directions). It demonstrates practical applications of Newton's laws through problems involving blocks, acceleration calculations, and circular motion scenarios, emphasizing the relationship between force vectors and their resultant effects.",
   "sections": [
     {
-      "start_time": "00:00:08",
-      "end_time": "00:00:22",
-      "subtitle": "Introduction to Vector Forces",
-      "summary": "The video begins by highlighting the limitations of previously discussed problems involving only horizontal or vertical forces. It introduces the need to consider forces acting at angles and provides an example of a force acting on a block at an angle."
+      "start_time": "00:00",
+      "end_time": "05:00",
+      "subtitle": "Introduction to Force Components",
+      "summary": "Introduces the need to resolve angled forces into horizontal (i) and vertical (j) components. Establishes the fundamental approach using unit vectors and trigonometric principles, referencing Newton's Second Law (F=ma) from the textbook's Section 4.5."
     },
     {
-      "start_time": "00:00:22",
-      "end_time": "00:02:22",
-      "subtitle": "Resolving Forces into Components",
-      "summary": "The lesson explains the standard approach of resolving forces into horizontal and vertical components.  It introduces the concept of ICAP and JCAP directions as a way to represent these components.  The video provides examples of how to represent forces in terms of these components."
+      "start_time": "05:01",
+      "end_time": "12:30",
+      "subtitle": "Vector Addition and Resultant Forces",
+      "summary": "Demonstrates vector addition using practical examples like displacement and force combinations. Explains how to calculate resultant magnitudes using Pythagoras' theorem and directional effects, aligning with the momentum concepts from the textbook's Section 4.5."
     },
     {
-      "start_time": "00:02:22",
-      "end_time": "00:06:46",
-      "subtitle": "Vector Addition and Magnitude",
-      "summary": "This section builds on the previous concepts by demonstrating how to add forces represented in ICAP and JCAP form.  It emphasizes the distinction between adding vectors and finding magnitudes.  It also shows how to calculate the magnitude of a resultant force using the Pythagorean theorem."
+      "start_time": "12:31",
+      "end_time": "20:00",
+      "subtitle": "Real-world Applications with Multiple Forces",
+      "summary": "Solves complex problems involving multiple forces acting on objects in space and on surfaces. Highlights the method of summing i and j components separately, connecting to equilibrium concepts from the textbook's Section 4.8."
     },
     {
-      "start_time": "00:06:46",
-      "end_time": "00:15:31",
-      "subtitle": "Applying Vector Addition to Acceleration",
-      "summary": "The video now applies the vector addition principles to find the acceleration of an object when multiple forces act on it.  It explains how to find the net force by adding the vector components of the forces.  It also demonstrates how to find the magnitude and direction of the acceleration vector."
-    },
-    {
-      "start_time": "00:15:31",
-      "end_time": "00:28:26",
-      "subtitle": "Inclined Forces and Resolution",
-      "summary": "This section focuses on resolving forces that are inclined at an angle.  It explains how to convert forces given in terms of angles into ICAP and JCAP components using trigonometric functions (sine and cosine).  It provides examples and emphasizes the importance of memorizing trigonometric values for common angles like 30, 37, 45, 60, and 90 degrees.  The lesson concludes by highlighting the application of these concepts to problems involving forces on objects on the surface of the Earth."
+      "start_time": "20:01",
+      "end_time": "28:00",
+      "subtitle": "Circular Motion and Friction Dynamics",
+      "summary": "Analyzes circular motion scenarios using banked roads and friction calculations. Relates centripetal force requirements to textbook Section 4.10, incorporating static/kinetic friction principles from Section 4.9."
     }
   ],
-  "conclusion": "The video concludes by summarizing the importance of resolving forces into components (ICAP and JCAP) for easy vector addition and calculation of acceleration. It emphasizes the need to convert forces given in terms of angles into their component forms.  It also highlights the application of these concepts to problems involving forces on objects on the surface of the Earth.",
-  "tags": [
-    "physics",
-    "forces",
-    "vectors",
-    "resolution",
-    "components",
-    "acceleration",
-    "ICAP",
-    "JCAP",
-    "Pythagorean theorem",
-    "trigonometry",
-    "NEET"
-  ]
+  "conclusion": "The lecture concludes by emphasizing the universal applicability of vector resolution in mechanics, from simple block systems to complex motion problems. It reinforces how breaking forces into components simplifies analysis while adhering to Newtonian principles.",
+  "tags": ["Vector resolution", "Newton's laws", "Centripetal force", "Friction", "Equilibrium", "i-j notation", "Resultant forces", "Trigonometry", "Momentum", "Kinematics"]
 }
